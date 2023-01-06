@@ -1,0 +1,14 @@
+select ?propertyskinType ?valueskinType  ?propertyfamilyHistory ?valuefamilyHistory ?propertybodyCharacteristic  ?valuebodyCharacteristic ?propertyimmuneSystem ?valueimmuneSystem ?propertyexposure ?valueexposure where{
+	?squamous rdf:type :SquamousCell .
+	?squamous hasDanger ?danger .
+	?squamous inSkinType ?skinType .
+	?squamous inFamilyHistory ?familyHistory .
+	?squamous inBodyCharacteristic ?bodyCharacteristic .
+	?squamous inImmuneSystem ?immuneSystem .
+	?squamous inExposure ?exposure .
+	?skinType ?propertyskinType ?valueskinType .
+	?state ?propertyfamilyHistory ?valuefamilyHistory .
+	?colour ?propertybodyCharacteristic  ?valuebodyCharacteristic  .
+	?shape ?propertyimmuneSystem ?valueimmuneSystem .
+	?exposure ?propertyexposure ?valueexposure .
+}

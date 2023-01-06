@@ -1,0 +1,514 @@
+Object Type SHACL rules for Skin Cancer
+
+#hasColour
+skin:colourInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:hasColour;
+    sh:class skin:Syptom;
+    sh:minCount 1;
+    ].
+
+#hasDanger
+skin:dangerInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:hasDanger;
+    sh:class skin:Danger;
+    sh:minCount 1;
+    ].
+
+#hasShape
+skin:shapeInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:hasShape;
+    sh:class skin:Syptom;
+    sh:minCount 1;
+    ].
+
+#hasSize
+skin:sizeInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:hasSize;
+    sh:class skin:Syptom;
+    sh:minCount 1;
+    ].
+
+#hasState
+skin:stateInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:hasState;
+    sh:class skin:Syptom;
+    sh:minCount 1;
+    ].
+
+#hasSymptoms
+skin:syptomInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:hasSymptoms;
+    sh:class skin:Syptom;
+    sh:minCount 1;
+    ].
+
+#inBodyCharacteristic
+skin:bodyInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:inBodyCharacteristic;
+    sh:class skin:BodyCharacteristic;
+    sh:minCount 1;
+    ].
+
+#inExposure
+skin:exposureInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:inExposure;
+    sh:class skin:Exposure;
+    sh:minCount 1;
+    ].
+
+#inFamilyHistory
+skin:familyInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:inFamilyHistory;
+    sh:class skin:FamilyHistory;
+    sh:minCount 1;
+    ].
+
+#inFamilyHistory
+skin:immuneInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:inImmuneSystem;
+    sh:class skin:ImmuneSystem;
+    sh:minCount 1;
+    ].
+
+#inSkinType
+skin:skinInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:inSkinType;
+    sh:class skin:SkinType;
+    sh:minCount 1;
+    ].
+
+#isLocated
+skin:locationInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:CancerType;
+    sh:property [
+    sh:path skin:isLocated;
+    sh:class skin:BodyPart;
+    sh:minCount 1;
+    ].
+
+
+
+
+Data Type SHACL rules for Skin Cancer
+
+#colour
+skin:colourInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:SkinType, skin:Colour;
+    sh:property [
+    sh:path skin:colour;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#exposureTo
+skin:exposureInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:Exposure;
+    sh:property [
+    sh:path skin:exposureTo;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#geneChange
+skin:geneInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:geneChange;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#geneChange
+skin:geneInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:geneChange;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#getsBurn
+skin:burnInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:SkinType;
+    sh:property [
+    sh:path skin:getsBurn;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hadBasalCellCarcinoma
+skin:basalInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:hadBasalCellCarcinoma;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hadSquamousCellCarcinoma
+skin:squamousInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:hadSquamousCellCarcinoma;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hadSunburnBlister
+skin:sunburnInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:hadSunburnBlister;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hadSyndrome
+skin:syndromeInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:hadSyndrome;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hadUnusualMole
+skin:moleInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:hadUnusualMole;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasAge
+skin:ageInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:BodyCharacteristic;
+    sh:property [
+    sh:path skin:hasAge;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasAppearence
+skin:appearenceInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:hasAppearence;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasBump
+skin:bumpInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:Shape;
+    sh:property [
+    sh:path skin:hasBump;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasChange
+skin:changeInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:Colour, skin:Shape, skin:Size;
+    sh:property [
+    sh:path skin:hasChange;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasElasticity
+skin:elasticityInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:hasElasticity;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasEyeColour
+skin:eyecolourInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:BodyCharacteristic;
+    sh:property [
+    sh:path skin:hasEyeColour;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasFreckle
+skin:freckleInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:SkinType;
+    sh:property [
+    sh:path skin:hasFreckle;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasGender
+skin:genderInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:BodyCharacteristic;
+    sh:property [
+    sh:path skin:hasGender;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasHairColour
+skin:haircolourInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:BodyCharacteristic;
+    sh:property [
+    sh:path skin:hasHairColour;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasIrregularEdge
+skin:irregularInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:Shape;
+    sh:property [
+    sh:path skin:hasIrregularEdge;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasItch
+skin:itchInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:hasItch;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasMelanoma
+skin:melanomaInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:hasMelanoma;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasPercussion
+skin:percussionInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:hasPercussion;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasVisibleBloodVessel
+skin:bloodInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:hasVisibleBloodVessel;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasWaxyLump
+skin:waxyInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:hasWaxyLump;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#hasWrinkle
+skin:wrinkleInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:hasWrinkle;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#inRadiation
+skin:radiationInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:FamilyHistory;
+    sh:property [
+    sh:path skin:inRadiation;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isAssymetric
+skin:assymetricInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:Size;
+    sh:property [
+    sh:path skin:isAssymetric;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isBleeding
+skin:bleedingInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:isBleeding;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isFlatExfoliatingRash
+skin:rashInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:isFlatExfoliatingRash;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isHealing
+skin:healingInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:isHealing;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isPainful
+skin:healingInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:isPainful;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isUlcer
+skin:ulcerInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:isUlcer;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isWaxyScar
+skin:waxyscarInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:Shape;
+    sh:property [
+    sh:path skin:isWaxyScar;
+    sh:datatype xsd:boolean;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isWound
+skin:woundInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:State;
+    sh:property [
+    sh:path skin:isWound;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#isofSize
+skin:ofsizeInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:Size;
+    sh:property [
+    sh:path skin:isofSize;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#located
+skin:locatedInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:BodyPart;
+    sh:property [
+    sh:path skin:located;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#located
+skin:locatedInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:BodyPart;
+    sh:property [
+    sh:path skin:located;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#stateOfImmune
+skin:immuneInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:ImmuneSystem;
+    sh:property [
+    sh:path skin:stateOfImmune;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].
+
+#typeOfSkin
+skin:typeskinInstance rdf:type sh:NodeShape;
+    sh:targetClass skin:SkinType;
+    sh:property [
+    sh:path skin:typeOfSkin;
+    sh:datatype xsd:string;
+    sh:minCount 1;
+    sh:maxCount 1;
+    ].

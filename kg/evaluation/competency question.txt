@@ -1,0 +1,24 @@
+CQ1: What are the symptoms for bcc? --> OK
+CQ2: What are the symptoms for scc? --> OK
+CQ3: What are the symptoms for mel? --> OK
+CQ4: What are the dangers to provoke bcc? --> OK
+CQ5: What are the dangers to provoke scc? --> OK
+CQ6: What are the dangers to provoke mel? --> OK
+CQ7: I have the symptoms A,B,C are these related to bcc? --> OK
+CQ8: I have the symptoms A,B,C are these related to scc? --> OK
+CQ9: I have the symptoms A,B,C are these related to mel? --> OK
+CQ10: I have the body characteristic X with what symptoms of bcc is related? --> OK
+CQ11: I have the body characteristic X with what symptoms of scc is related? --> OK
+CQ12: I have the body characteristic X with what symptoms of mel is related? --> OK
+CQ13: I have the family history X with what symptoms of bcc is related? --> OK
+CQ14: I have the family history X with what symptoms of scc is related? --> OK
+CQ15: I have the family history X with what symptoms of mel is related? --> OK
+CQ16: I have the skin type X with what symptoms of bcc is related? --> OK  
+CQ17: I have the skin type X with what symptoms of scc is related? --> OK  
+CQ18: I have the skin type X with what symptoms of mel is related? --> OK  
+CQ19: I have been exposed to X with what symptoms of bcc is related? --> OK
+CQ20: I have been exposed to X with what symptoms of scc is related? --> OK
+CQ21: I have been exposed to X with what symptoms of mel is related? --> OK
+CQ22: I have the characteristic of the immune system X with what symptoms of bcc is related? --> OK
+CQ23: I have the characteristic of the immune system X with what symptoms of scc is related? --> OK
+CQ24: I have the characteristic of the immune system X with what symptoms of mel is related? --> OK

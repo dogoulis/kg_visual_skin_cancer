@@ -1,0 +1,15 @@
+select ?propertySize ?valueSize ?propertyState ?valueState ?propertyShape ?shape where{
+	?squamous rdf:type :SquamousCell .
+
+	?squamous :inExposure ?exposure.
+	?exposure ?property <Chracteristic>.
+	?squamous :hasSymptoms ?symptoms .
+	?squamous :hasSize ?size .
+	?squamous :hasShape ?shape .
+	?squamous :hasColour ?colour .
+	?squamous :hasState ?state .
+	?size ?propertySize ?valueSize .
+	?state ?propertyState ?valueState .
+	?colour ?propertyColour ?colour .
+	?shape ?propertyShape ?shape .
+}

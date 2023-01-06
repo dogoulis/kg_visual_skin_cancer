@@ -1,0 +1,562 @@
+@prefix : <http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328> .
+
+<http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasColour
+:hasColour rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf :hasSymptoms ;
+           rdfs:domain :CancerType ;
+           rdfs:range :Symptom ;
+           rdfs:comment "A property that indicates the colour of the instance (i.e., skin cancer or potenital skin cancer)" ;
+           rdfs:label "has colour" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasDanger
+:hasDanger rdf:type owl:ObjectProperty ;
+           rdfs:domain :CancerType ;
+           rdfs:range :Danger ;
+           rdfs:comment "A property that indicates the dangers which increase the risk to suffer skin cancer" ;
+           rdfs:label "has danger" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasShape
+:hasShape rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :hasSymptoms ;
+          rdfs:domain :CancerType ;
+          rdfs:range :Symptom ;
+          rdfs:comment "A property that indicates the shape of the instance (i.e., skin cancer or potenital skin cancer)" ;
+          rdfs:label "has shape" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasSize
+:hasSize rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf :hasSymptoms ;
+         rdfs:domain :CancerType ;
+         rdfs:range :Symptom ;
+         rdfs:comment "A property that indicates the size of the instance (i.e., skin cancer or potenital skin cancer)" ;
+         rdfs:label "hasSize" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasState
+:hasState rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf :hasSymptoms ;
+          rdfs:domain :CancerType ;
+          rdfs:range :Symptom ;
+          rdfs:comment "A property that indicates the state of the instance (i.e., skin cancer or potenital skin cancer)" ;
+          rdfs:label "has state" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasSymptoms
+:hasSymptoms rdf:type owl:ObjectProperty ;
+             rdfs:domain :CancerType ;
+             rdfs:range :Symptom ;
+             rdfs:comment "A property that indicatesthe sympotms the instance (i.e., skin cancer or potenital skin cancer) has" ;
+             rdfs:label "has symptoms" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#inBodyCharacteristic
+:inBodyCharacteristic rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf :hasDanger ;
+                      rdfs:domain :CancerType ;
+                      rdfs:range :BodyCharacteristic ;
+                      rdfs:comment "A property that indicates the body characteristics which increase the risk to suffer skin cancer" ;
+                      rdfs:label "in body characteristic" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#inExposure
+:inExposure rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :hasDanger ;
+            rdfs:domain :CancerType ;
+            rdfs:range :Exposure ;
+            rdfs:comment "A property that indicates the exposures which increase the risk to suffer skin cancer" ;
+            rdfs:label "in exposure" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#inFamilyHistory
+:inFamilyHistory rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf :hasDanger ;
+                 rdfs:domain :CancerType ;
+                 rdfs:range :FamilyHistory ;
+                 rdfs:comment "A property that indicates the family history which increase the risk to suffer skin cancer" ;
+                 rdfs:label "in family history" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#inImmuneSystem
+:inImmuneSystem rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf :hasDanger ;
+                rdfs:domain :CancerType ;
+                rdfs:range :ImmuneSystem ;
+                rdfs:comment "A property that indicates the immune system states which increase the risk to suffer skin cancer" ;
+                rdfs:label "in immune system" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#inSkinType
+:inSkinType rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf :hasDanger ;
+            rdfs:domain :CancerType ;
+            rdfs:range :SkinType ;
+            rdfs:comment "A property that indicates the skin types which increase the risk to suffer skin cancer" ;
+            rdfs:label "in skin type" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isLocated
+:isLocated rdf:type owl:ObjectProperty ;
+           rdfs:domain :CancerType ;
+           rdfs:range :BodyPart ;
+           rdfs:comment "A property that indicates in which body part the instance (i.e., skin cancer or potenital skin cancer) is located" ;
+           rdfs:label "is located" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#colour
+:colour rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Colour ,
+                    :SkinType ;
+        rdfs:range xsd:string ;
+        rdfs:comment "A property that indiciates the colour of an instance. Instance is an entity that could be skin cancer or not" ;
+        rdfs:label "colour" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#exposureTo
+:exposureTo rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Exposure ;
+            rdfs:range xsd:string ;
+            rdfs:comment "A property that indicates to what  an individual has been exposed" ;
+            rdfs:label "exposure to" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#geneChange
+:geneChange rdf:type owl:DatatypeProperty ;
+            rdfs:domain :FamilyHistory ;
+            rdfs:range xsd:string ;
+            rdfs:comment "A property that indicates if an individual had some gene changes in the past" ;
+            rdfs:label "gene change" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#getsBurn
+:getsBurn rdf:type owl:DatatypeProperty ;
+          rdfs:domain :SkinType ;
+          rdfs:range xsd:string ;
+          rdfs:label "A property that indiciates if a skin type gets often burns or not" ,
+                     "gets burn" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hadBasalCellCarcinoma
+:hadBasalCellCarcinoma rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :FamilyHistory ;
+                       rdfs:range xsd:boolean ;
+                       rdfs:comment "A property that indicates if an individual had a basal cell carcinoma in the past" ;
+                       rdfs:label "has basal cell carcinoma" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hadSquamousCellCarcinoma
+:hadSquamousCellCarcinoma rdf:type owl:DatatypeProperty ;
+                          rdfs:domain :FamilyHistory ;
+                          rdfs:range xsd:boolean ;
+                          rdfs:comment "A property that indicates if an individual had a squamous cell carcinoma in the past" ;
+                          rdfs:label "squamous cell carcinoma" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hadSunburnBlister
+:hadSunburnBlister rdf:type owl:DatatypeProperty ;
+                   rdfs:domain :FamilyHistory ;
+                   rdfs:range xsd:boolean ;
+                   rdfs:comment "A property that indicates if an individual had sunburn blisters in the past" ;
+                   rdfs:label "had sunburn blister" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hadSyndrome
+:hadSyndrome rdf:type owl:DatatypeProperty ;
+             rdfs:domain :FamilyHistory ;
+             rdfs:range xsd:string ;
+             rdfs:comment "A property that indicates if the individual has a specific syndrome or not" ;
+             rdfs:label "xsd:string" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hadUnusualMole
+:hadUnusualMole rdf:type owl:DatatypeProperty ;
+                rdfs:domain :FamilyHistory ;
+                rdfs:range xsd:boolean ;
+                rdfs:comment "A property that indicates if an individual had an unusual mole" ;
+                rdfs:label "had unusual mole" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasAge
+:hasAge rdf:type owl:DatatypeProperty ;
+        rdfs:domain :BodyCharacteristic ;
+        rdfs:range xsd:string ;
+        rdfs:comment "A property that indicates the age of an individual" ;
+        rdfs:label "has age" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasAppearence
+:hasAppearence rdf:type owl:DatatypeProperty ;
+               rdfs:domain :State ;
+               rdfs:range xsd:string ;
+               rdfs:comment """A property that indiciates the appearence of an instance.
+Instance is an entity that could be skin cancer or not""" ;
+               rdfs:label "has appearence" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasBump
+:hasBump rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Shape ;
+         rdfs:range xsd:boolean ;
+         rdfs:comment """A property that idiciates if an instance is a bump or not.
+Instance is an entity that could be skin cancer or not""" ;
+         rdfs:label "has bump" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasChange
+:hasChange rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Colour ,
+                       :Shape ,
+                       :Size ;
+           rdfs:range xsd:boolean ;
+           rdfs:comment "A property that indicates the change in the size, the shape, and the colour of an instance (i.e., skin cancer or potenital skin cancer)" ;
+           rdfs:label "has change" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasElasticity
+:hasElasticity rdf:type owl:DatatypeProperty ;
+               rdfs:domain :State ;
+               rdfs:range xsd:boolean ;
+               rdfs:comment """A property that indiciates if an instance is elastic or not.
+Instance is an entity that could be skin cancer or not""" ;
+               rdfs:label "has elasticity" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasEyeColour
+:hasEyeColour rdf:type owl:DatatypeProperty ;
+              rdfs:domain :BodyCharacteristic ;
+              rdfs:range xsd:string ;
+              rdfs:comment "A property that indicates the eye colour of a body" ;
+              rdfs:label "has eye colour" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasFreckle
+:hasFreckle rdf:type owl:DatatypeProperty ;
+            rdfs:domain :SkinType ;
+            rdfs:range xsd:string ;
+            rdfs:comment "A property that indiciates if a skin type has freckles or not" ;
+            rdfs:label "has freckle" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasGender
+:hasGender rdf:type owl:DatatypeProperty ;
+           rdfs:domain :BodyCharacteristic ;
+           rdfs:range xsd:string ;
+           rdfs:comment "A property that indicates the gender of the individual" ;
+           rdfs:label "has gender" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasHairColour
+:hasHairColour rdf:type owl:DatatypeProperty ;
+               rdfs:domain :BodyCharacteristic ;
+               rdfs:range xsd:string ;
+               rdfs:comment "A property that indicates the hair colour of a body" ;
+               rdfs:label "has hair colour" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasIrregularEdge
+:hasIrregularEdge rdf:type owl:DatatypeProperty ;
+                  rdfs:domain :Shape ;
+                  rdfs:range xsd:boolean ;
+                  rdfs:comment """A property that indiciates if an instance has irregular size or not.
+Instance is an entity that could be skin cancer or not""" ;
+                  rdfs:label "has irregular edge" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasItch
+:hasItch rdf:type owl:DatatypeProperty ;
+         rdfs:domain :State ;
+         rdfs:range xsd:boolean ;
+         rdfs:comment """A property that indiciates if an instance has itch or not.
+Instance is an entity that could be skin cancer or not""" ;
+         rdfs:label "has itch" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasMelanoma
+:hasMelanoma rdf:type owl:DatatypeProperty ;
+             rdfs:domain :FamilyHistory ;
+             rdfs:range xsd:boolean ;
+             rdfs:comment "A property that indicates if an individual had a melanoma in the past" ;
+             rdfs:label "had melanoma" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasPercussion
+:hasPercussion rdf:type owl:DatatypeProperty ;
+               rdfs:domain :State ;
+               rdfs:range xsd:boolean ;
+               rdfs:comment """A property that indiciates if an instance has percussion or not.
+Instance is an entity that could be skin cancer or not""" ;
+               rdfs:label "has percussion" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasVisibleBloodVessel
+:hasVisibleBloodVessel rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :State ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment """A property that indiciates if an instance has visible blood vessel or not.
+Instance is an entity that could be skin cancer or not""" ;
+                       rdfs:label "has visible blood vessels" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasWaxyLump
+:hasWaxyLump rdf:type owl:DatatypeProperty ;
+             rdfs:domain :State ;
+             rdfs:range xsd:boolean ;
+             rdfs:comment """A property that indiciates if an instance has waxy lump or not.
+Instance is an entity that could be skin cancer or not""" ;
+             rdfs:label "has waxy lump" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#hasWrinkle
+:hasWrinkle rdf:type owl:DatatypeProperty ;
+            rdfs:domain :State ;
+            rdfs:range xsd:string ;
+            rdfs:comment """A property that indiciates if an instance has wrinkles or not.
+Instance is an entity that could be skin cancer or not""" ;
+            rdfs:label "has wrinkle" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#inRadiation
+:inRadiation rdf:type owl:DatatypeProperty ;
+             rdfs:domain :FamilyHistory ;
+             rdfs:range xsd:boolean ;
+             rdfs:comment "A property that indicates that an individual goes through radiation treatment" ;
+             rdfs:label "in radiation" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isAssymetric
+:isAssymetric rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Size ;
+              rdfs:range xsd:boolean ;
+              rdfs:comment """A property that indiciates if an instance is assymetric or not.
+Instance is an entity that could be skin cancer or not""" ;
+              rdfs:label "is assymetric" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isBleeding
+:isBleeding rdf:type owl:DatatypeProperty ;
+            rdfs:domain :State ;
+            rdfs:range xsd:string ;
+            rdfs:comment """A property that indiciates if an instance is bleeding or not.
+Instance is an entity that could be skin cancer or not""" ;
+            rdfs:label "is bleeding" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isFlatExfoliatingRash
+:isFlatExfoliatingRash rdf:type owl:DatatypeProperty ;
+                       rdfs:domain :State ;
+                       rdfs:range xsd:boolean ;
+                       rdfs:comment """A property that indiciates if an instance is a flat exfoliating rash or not.
+Instance is an entity that could be skin cancer or not""" ;
+                       rdfs:label "is flat exfoliating rash" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isHealing
+:isHealing rdf:type owl:DatatypeProperty ;
+           rdfs:domain :State ;
+           rdfs:range xsd:string ;
+           rdfs:comment """A property that indiciates if an instance is healing or not.
+Instance is an entity that could be skin cancer or not""" ;
+           rdfs:label "is healing" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isPainful
+:isPainful rdf:type owl:DatatypeProperty ;
+           rdfs:domain :State ;
+           rdfs:range xsd:boolean ;
+           rdfs:comment """A property that indiciates if an instance is painful or not.
+Instance is an entity that could be skin cancer or not""" ;
+           rdfs:label "is painful" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isUlcer
+:isUlcer rdf:type owl:DatatypeProperty ;
+         rdfs:domain :State ;
+         rdfs:range xsd:boolean ;
+         rdfs:comment """A property that indiciates if an instance is ulcer or not.
+Instance is an entity that could be skin cancer or not""" ;
+         rdfs:label "is ulcer" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isWaxyScar
+:isWaxyScar rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Shape ;
+            rdfs:range xsd:boolean ;
+            rdfs:comment """A property that indiciates if an instance is waxy scar or not.
+Instance is an entity that could be skin cancer or not""" ;
+            rdfs:label "is waxy scar" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isWound
+:isWound rdf:type owl:DatatypeProperty ;
+         rdfs:domain :State ;
+         rdfs:range xsd:string ;
+         rdfs:comment """A property that indiciates if an instance has a wound or not.
+Instance is an entity that could be skin cancer or not""" ;
+         rdfs:label "is wound" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#isofSize
+:isofSize rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Size ;
+          rdfs:range xsd:string ;
+          rdfs:comment """A property that indiciates the size of an instance.
+Instance is an entity that could be skin cancer or not""" ;
+          rdfs:label "is of size" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#located
+:located rdf:type owl:DatatypeProperty ;
+         rdfs:domain :BodyPart ;
+         rdfs:range xsd:string ;
+         rdfs:comment """A property that indiciates where on the body the instance is located.
+Instance is an entity that could be skin cancer or not""" ;
+         rdfs:label "located" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#stateOfImmune
+:stateOfImmune rdf:type owl:DatatypeProperty ;
+               rdfs:domain :ImmuneSystem ;
+               rdfs:range xsd:string ;
+               rdfs:comment "A property that indicates the state of the immune system" ;
+               rdfs:label "state of immune" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#typeOfSkin
+:typeOfSkin rdf:type owl:DatatypeProperty ;
+            rdfs:domain :SkinType ;
+            rdfs:range xsd:string ;
+            rdfs:comment "A property that indicates the type of skin" ;
+            rdfs:label "type of skin" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#BasalCell
+:BasalCell rdf:type owl:Class ;
+           rdfs:subClassOf :CancerType ;
+           rdfs:comment "A class for the basal cell skin cancer type" ;
+           rdfs:label "Basal Cell Carcinoma" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#BodyCharacteristic
+:BodyCharacteristic rdf:type owl:Class ;
+                    rdfs:subClassOf :Danger ;
+                    rdfs:comment "A class that indicates the body characteristics that increase the chance to suffer skin cancer" ;
+                    rdfs:label "body characteristic" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#BodyPart
+:BodyPart rdf:type owl:Class ;
+          rdfs:comment "A class that indicates the body parts that a skin cancer may appear" ;
+          rdfs:label "Body Part" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#CancerType
+:CancerType rdf:type owl:Class ;
+            rdfs:comment "A class that contains the types of cancer" ;
+            rdfs:label "Cancer Type" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#Colour
+:Colour rdf:type owl:Class ;
+        rdfs:subClassOf :Symptom ;
+        rdfs:comment "A property that indicates the colour of an instance (which may or may not be a skin cancer)" ;
+        rdfs:label "Colour" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#Danger
+:Danger rdf:type owl:Class ;
+        rdfs:comment "A class that contains the risk factors that may provoke a skin cancer" ;
+        rdfs:label "danger" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#Exposure
+:Exposure rdf:type owl:Class ;
+          rdfs:subClassOf :Danger ;
+          rdfs:comment "A class that indicates the things that when exposed to  increase the chance to suffer skin cancer" ;
+          rdfs:label "exposure" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#FamilyHistory
+:FamilyHistory rdf:type owl:Class ;
+               rdfs:subClassOf :Danger ;
+               rdfs:comment "A class that indicates the family history aspects that increase the danger to suffer skin cancer" ;
+               rdfs:label "family history" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#ImmuneSystem
+:ImmuneSystem rdf:type owl:Class ;
+              rdfs:subClassOf :Danger ;
+              rdfs:comment "A class that indicates the state of the immune system which increase the chance to suffer skin cancer" ;
+              rdfs:label "immune system" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#Melanoma
+:Melanoma rdf:type owl:Class ;
+          rdfs:subClassOf :CancerType ;
+          rdfs:comment "A class for the melanoma skin cancer type" ;
+          rdfs:label "Melanoma" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#Shape
+:Shape rdf:type owl:Class ;
+       rdfs:subClassOf :Symptom ;
+       rdfs:comment "A property that indicates the shape of an instance (which may or may not be a skin cancer)" ;
+       rdfs:label "Shape" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#Size
+:Size rdf:type owl:Class ;
+      rdfs:subClassOf :Symptom ;
+      rdfs:comment "A property that indicates the size of an instance (which may or may not be a skin cancer)" ;
+      rdfs:label "Size" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#SkinType
+:SkinType rdf:type owl:Class ;
+          rdfs:subClassOf :Danger ;
+          rdfs:comment "A class that indicates the skin types that are more dangerous to suffer skin cancer" ;
+          rdfs:label "skin type" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#SquamousCell
+:SquamousCell rdf:type owl:Class ;
+              rdfs:subClassOf :CancerType ;
+              rdfs:comment "A class for the squamous cell skin cancer type" ;
+              rdfs:label "Squamous Cell Carcinoma" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#State
+:State rdf:type owl:Class ;
+       rdfs:subClassOf :Symptom ;
+       rdfs:comment "State" ;
+       rdfs:label "A property that indicates the state of an instance (which may or may not be a skin cancer)" .
+
+
+###  http://www.semanticweb.org/user/ontologies/2022/10/untitled-ontology-328#Symptom
+:Symptom rdf:type owl:Class ;
+         rdfs:comment "A class that contains the classes with the symptoms" ;
+         rdfs:label "Syptom" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

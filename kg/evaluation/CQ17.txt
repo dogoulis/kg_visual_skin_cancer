@@ -1,0 +1,15 @@
+select ?propertySize ?valueSize ?propertyState ?valueState ?propertyShape ?shape where{
+	?basal rdf:type :BasalCell .
+
+	?basal :inSkinType ?skin.
+	?skin ?property <Chracteristic>.
+	?basal :hasSymptoms ?symptoms .
+	?basal :hasSize ?size .
+	?basal :hasShape ?shape .
+	?basal :hasColour ?colour .
+	?basal :hasState ?state .
+	?size ?propertySize ?valueSize .
+	?state ?propertyState ?valueState .
+	?colour ?propertyColour ?colour .
+	?shape ?propertyShape ?shape .
+}

@@ -1,0 +1,24 @@
+ASK{
+	?basal rdf:type :BasalCell .
+	
+	?basal :hasSymptoms ?symptoms0 .
+	?basal :hasSize ?size0 .
+	?basal :hasShape ?shape0 .
+	?basal :hasColour ?colour0 .
+	?basal :hasState ?state0 .
+	optional{?size0 ?propertySize <A>}
+	optional{?state0 ?propertyState <A> }
+	optional{?colour0 ?propertyColour <A> }
+	optional{?shape0 ?propertyShape <A> }
+
+
+	?basal :hasSymptoms ?symptoms1 .
+	?basal :hasSize ?size1 .
+	?basal :hasShape ?shape1 .
+	?basal :hasColour ?colour1 .
+	?basal :hasState ?state1 .
+	optional{?size1 ?propertySize <B>}
+	optional{?state1 ?propertyState <B> }
+	optional{?colour1 ?propertyColour <B> }
+	optional{?shape1 ?propertyShape <B> }
+}##(s)he gave 2 symptoms

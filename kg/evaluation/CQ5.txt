@@ -1,0 +1,14 @@
+select ?propertyskinType ?valueskinType  ?propertyfamilyHistory ?valuefamilyHistory ?propertybodyCharacteristic  ?valuebodyCharacteristic ?propertyimmuneSystem ?valueimmuneSystem ?propertyexposure ?valueexposure where{
+	?basal rdf:type :BasalCell .
+	?basal hasDanger ?danger .
+	?basal inSkinType ?skinType .
+	?basal inFamilyHistory ?familyHistory .
+	?basal inBodyCharacteristic ?bodyCharacteristic .
+	?basal inImmuneSystem ?immuneSystem .
+	?basal inExposure ?exposure .
+	?skinType ?propertyskinType ?valueskinType .
+	?state ?propertyfamilyHistory ?valuefamilyHistory .
+	?colour ?propertybodyCharacteristic  ?valuebodyCharacteristic  .
+	?shape ?propertyimmuneSystem ?valueimmuneSystem .
+	?exposure ?propertyexposure ?valueexposure .
+}

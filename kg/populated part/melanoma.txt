@@ -1,0 +1,1404 @@
+:melanomaPAT_680_1289_182 rdf:type :Melanoma.
+:melanomaPAT_680_1289_182 :hasState :statesmelanomaPAT_680_1289_182.
+:statesmelanomaPAT_680_1289_182 rdf:type :State.
+:statesmelanomaPAT_680_1289_182 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_680_1289_182 :isBleeding "False"^^xsd:string.
+:melanomaPAT_680_1289_182 :hasSize :sizemelanomaPAT_680_1289_182.
+:sizemelanomaPAT_680_1289_182 rdf:type :Size.
+:sizemelanomaPAT_680_1289_182 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_680_1289_182 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_680_1289_182 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_680_1289_182 :isofSize "10.0"^^xsd:string.
+:statesmelanomaPAT_680_1289_182 :isofSize "10.0"^^xsd:string.
+:melanomaPAT_680_1289_182 :isLocated :locatedmelanomaPAT_680_1289_182.
+:locatedmelanomaPAT_680_1289_182 rdf:type :BodyPart.
+:locatedmelanomaPAT_680_1289_182 :located "BACK"^^xsd:string.
+:melanomaPAT_680_1289_182 :inFamilyHistory :familymelanomaPAT_680_1289_182.
+:familymelanomaPAT_680_1289_182 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_680_1289_182 rdf:type :FamilyHistory.
+:melanomaPAT_680_1289_182 :inBodyCharacteristic :bodyPAT_680_1289_182.
+:bodyPAT_680_1289_182 rdf:type :BodyCharacteristic.
+:bodyPAT_680_1289_182 :hasAge "78"^^xsd:string.
+:bodyPAT_680_1289_182 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_680_1289_182 :inSkinType :skinPAT_680_1289_182.
+:skinPAT_680_1289_182 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_995_1867_5 rdf:type :Melanoma.
+:melanomaPAT_995_1867_5 :hasState :statesmelanomaPAT_995_1867_5.
+:statesmelanomaPAT_995_1867_5 rdf:type :State.
+:statesmelanomaPAT_995_1867_5 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_995_1867_5 :isBleeding "False"^^xsd:string.
+:melanomaPAT_995_1867_5 :hasSize :sizemelanomaPAT_995_1867_5.
+:sizemelanomaPAT_995_1867_5 rdf:type :Size.
+:sizemelanomaPAT_995_1867_5 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_995_1867_5 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_995_1867_5 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_995_1867_5 :isofSize "20.0"^^xsd:string.
+:statesmelanomaPAT_995_1867_5 :isofSize "23.0"^^xsd:string.
+:melanomaPAT_995_1867_5 :isLocated :locatedmelanomaPAT_995_1867_5.
+:locatedmelanomaPAT_995_1867_5 rdf:type :BodyPart.
+:locatedmelanomaPAT_995_1867_5 :located "THIGH"^^xsd:string.
+:melanomaPAT_995_1867_5 :inFamilyHistory :familymelanomaPAT_995_1867_5.
+:familymelanomaPAT_995_1867_5 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_995_1867_5 rdf:type :FamilyHistory.
+:melanomaPAT_995_1867_5 :inBodyCharacteristic :bodyPAT_995_1867_5.
+:bodyPAT_995_1867_5 rdf:type :BodyCharacteristic.
+:bodyPAT_995_1867_5 :hasAge "49"^^xsd:string.
+:bodyPAT_995_1867_5 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_995_1867_5 :inSkinType :skinPAT_995_1867_5.
+:skinPAT_995_1867_5 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_966_1825_584 rdf:type :Melanoma.
+:melanomaPAT_966_1825_584 :hasState :statesmelanomaPAT_966_1825_584.
+:statesmelanomaPAT_966_1825_584 rdf:type :State.
+:statesmelanomaPAT_966_1825_584 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_966_1825_584 :isBleeding "False"^^xsd:string.
+:melanomaPAT_966_1825_584 :hasSize :sizemelanomaPAT_966_1825_584.
+:sizemelanomaPAT_966_1825_584 rdf:type :Size.
+:sizemelanomaPAT_966_1825_584 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_966_1825_584 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_966_1825_584 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_966_1825_584 :isofSize "5.0"^^xsd:string.
+:statesmelanomaPAT_966_1825_584 :isofSize "12.0"^^xsd:string.
+:melanomaPAT_966_1825_584 :isLocated :locatedmelanomaPAT_966_1825_584.
+:locatedmelanomaPAT_966_1825_584 rdf:type :BodyPart.
+:locatedmelanomaPAT_966_1825_584 :located "FACE"^^xsd:string.
+:melanomaPAT_966_1825_584 :inFamilyHistory :familymelanomaPAT_966_1825_584.
+:familymelanomaPAT_966_1825_584 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_966_1825_584 rdf:type :FamilyHistory.
+:melanomaPAT_966_1825_584 :inBodyCharacteristic :bodyPAT_966_1825_584.
+:bodyPAT_966_1825_584 rdf:type :BodyCharacteristic.
+:bodyPAT_966_1825_584 :hasAge "46"^^xsd:string.
+:bodyPAT_966_1825_584 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_966_1825_584 :inSkinType :skinPAT_966_1825_584.
+:skinPAT_966_1825_584 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_966_1825_546 rdf:type :Melanoma.
+:melanomaPAT_966_1825_546 :hasState :statesmelanomaPAT_966_1825_546.
+:statesmelanomaPAT_966_1825_546 rdf:type :State.
+:statesmelanomaPAT_966_1825_546 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_966_1825_546 :isBleeding "False"^^xsd:string.
+:melanomaPAT_966_1825_546 :hasSize :sizemelanomaPAT_966_1825_546.
+:sizemelanomaPAT_966_1825_546 rdf:type :Size.
+:sizemelanomaPAT_966_1825_546 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_966_1825_546 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_966_1825_546 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_966_1825_546 :isofSize "5.0"^^xsd:string.
+:statesmelanomaPAT_966_1825_546 :isofSize "12.0"^^xsd:string.
+:melanomaPAT_966_1825_546 :isLocated :locatedmelanomaPAT_966_1825_546.
+:locatedmelanomaPAT_966_1825_546 rdf:type :BodyPart.
+:locatedmelanomaPAT_966_1825_546 :located "FACE"^^xsd:string.
+:melanomaPAT_966_1825_546 :inFamilyHistory :familymelanomaPAT_966_1825_546.
+:familymelanomaPAT_966_1825_546 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_966_1825_546 rdf:type :FamilyHistory.
+:melanomaPAT_966_1825_546 :inBodyCharacteristic :bodyPAT_966_1825_546.
+:bodyPAT_966_1825_546 rdf:type :BodyCharacteristic.
+:bodyPAT_966_1825_546 :hasAge "46"^^xsd:string.
+:bodyPAT_966_1825_546 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_966_1825_546 :inSkinType :skinPAT_966_1825_546.
+:skinPAT_966_1825_546 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_495_941_26 rdf:type :Melanoma.
+:melanomaPAT_495_941_26 :hasState :statesmelanomaPAT_495_941_26.
+:statesmelanomaPAT_495_941_26 rdf:type :State.
+:statesmelanomaPAT_495_941_26 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_495_941_26 :isBleeding "False"^^xsd:string.
+:melanomaPAT_495_941_26 :hasSize :sizemelanomaPAT_495_941_26.
+:sizemelanomaPAT_495_941_26 rdf:type :Size.
+:sizemelanomaPAT_495_941_26 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_495_941_26 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_495_941_26 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_495_941_26 :isofSize "11.0"^^xsd:string.
+:statesmelanomaPAT_495_941_26 :isofSize "14.0"^^xsd:string.
+:melanomaPAT_495_941_26 :isLocated :locatedmelanomaPAT_495_941_26.
+:locatedmelanomaPAT_495_941_26 rdf:type :BodyPart.
+:locatedmelanomaPAT_495_941_26 :located "BACK"^^xsd:string.
+:melanomaPAT_495_941_26 :inFamilyHistory :familymelanomaPAT_495_941_26.
+:familymelanomaPAT_495_941_26 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_495_941_26 rdf:type :FamilyHistory.
+:melanomaPAT_495_941_26 :inBodyCharacteristic :bodyPAT_495_941_26.
+:bodyPAT_495_941_26 rdf:type :BodyCharacteristic.
+:bodyPAT_495_941_26 :hasAge "58"^^xsd:string.
+:bodyPAT_495_941_26 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_495_941_26 :inSkinType :skinPAT_495_941_26.
+:skinPAT_495_941_26 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_614_1166_885 rdf:type :Melanoma.
+:melanomaPAT_614_1166_885 :hasState :statesmelanomaPAT_614_1166_885.
+:statesmelanomaPAT_614_1166_885 rdf:type :State.
+:statesmelanomaPAT_614_1166_885 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_614_1166_885 :isBleeding "False"^^xsd:string.
+:melanomaPAT_614_1166_885 :hasSize :sizemelanomaPAT_614_1166_885.
+:sizemelanomaPAT_614_1166_885 rdf:type :Size.
+:sizemelanomaPAT_614_1166_885 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_614_1166_885 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_614_1166_885 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_614_1166_885 :isofSize "6.0"^^xsd:string.
+:statesmelanomaPAT_614_1166_885 :isofSize "18.0"^^xsd:string.
+:melanomaPAT_614_1166_885 :isLocated :locatedmelanomaPAT_614_1166_885.
+:locatedmelanomaPAT_614_1166_885 rdf:type :BodyPart.
+:locatedmelanomaPAT_614_1166_885 :located "CHEST"^^xsd:string.
+:melanomaPAT_614_1166_885 :inFamilyHistory :familymelanomaPAT_614_1166_885.
+:familymelanomaPAT_614_1166_885 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_614_1166_885 rdf:type :FamilyHistory.
+:melanomaPAT_614_1166_885 :inBodyCharacteristic :bodyPAT_614_1166_885.
+:bodyPAT_614_1166_885 rdf:type :BodyCharacteristic.
+:bodyPAT_614_1166_885 :hasAge "56"^^xsd:string.
+:bodyPAT_614_1166_885 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_614_1166_885 :inSkinType :skinPAT_614_1166_885.
+:skinPAT_614_1166_885 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_340_714_68 rdf:type :Melanoma.
+:melanomaPAT_340_714_68 :hasState :statesmelanomaPAT_340_714_68.
+:statesmelanomaPAT_340_714_68 rdf:type :State.
+:statesmelanomaPAT_340_714_68 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_340_714_68 :isBleeding "False"^^xsd:string.
+:melanomaPAT_340_714_68 :hasSize :sizemelanomaPAT_340_714_68.
+:sizemelanomaPAT_340_714_68 rdf:type :Size.
+:sizemelanomaPAT_340_714_68 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_340_714_68 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_340_714_68 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_340_714_68 :isofSize "12.0"^^xsd:string.
+:statesmelanomaPAT_340_714_68 :isofSize "14.0"^^xsd:string.
+:melanomaPAT_340_714_68 :isLocated :locatedmelanomaPAT_340_714_68.
+:locatedmelanomaPAT_340_714_68 rdf:type :BodyPart.
+:locatedmelanomaPAT_340_714_68 :located "BACK"^^xsd:string.
+:melanomaPAT_340_714_68 :inFamilyHistory :familymelanomaPAT_340_714_68.
+:familymelanomaPAT_340_714_68 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_340_714_68 rdf:type :FamilyHistory.
+:melanomaPAT_340_714_68 :inBodyCharacteristic :bodyPAT_340_714_68.
+:bodyPAT_340_714_68 rdf:type :BodyCharacteristic.
+:bodyPAT_340_714_68 :hasAge "54"^^xsd:string.
+:bodyPAT_340_714_68 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_340_714_68 :inSkinType :skinPAT_340_714_68.
+:skinPAT_340_714_68 :typeOfSkin "4.0"^^xsd:string.
+
+
+
+:melanomaPAT_115_1138_870 rdf:type :Melanoma.
+:melanomaPAT_115_1138_870 :hasState :statesmelanomaPAT_115_1138_870.
+:statesmelanomaPAT_115_1138_870 rdf:type :State.
+:statesmelanomaPAT_115_1138_870 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_115_1138_870 :isBleeding "False"^^xsd:string.
+:melanomaPAT_115_1138_870 :hasSize :sizemelanomaPAT_115_1138_870.
+:sizemelanomaPAT_115_1138_870 rdf:type :Size.
+:sizemelanomaPAT_115_1138_870 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_115_1138_870 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_115_1138_870 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_115_1138_870 :isofSize "8.0"^^xsd:string.
+:statesmelanomaPAT_115_1138_870 :isofSize "10.0"^^xsd:string.
+:melanomaPAT_115_1138_870 :isLocated :locatedmelanomaPAT_115_1138_870.
+:locatedmelanomaPAT_115_1138_870 rdf:type :BodyPart.
+:locatedmelanomaPAT_115_1138_870 :located "BACK"^^xsd:string.
+:melanomaPAT_115_1138_870 :inFamilyHistory :familymelanomaPAT_115_1138_870.
+:familymelanomaPAT_115_1138_870 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_115_1138_870 rdf:type :FamilyHistory.
+:melanomaPAT_115_1138_870 :inBodyCharacteristic :bodyPAT_115_1138_870.
+:bodyPAT_115_1138_870 rdf:type :BodyCharacteristic.
+:bodyPAT_115_1138_870 :hasAge "70"^^xsd:string.
+:bodyPAT_115_1138_870 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_115_1138_870 :inSkinType :skinPAT_115_1138_870.
+:skinPAT_115_1138_870 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_895_1699_872 rdf:type :Melanoma.
+:melanomaPAT_895_1699_872 :hasState :statesmelanomaPAT_895_1699_872.
+:statesmelanomaPAT_895_1699_872 rdf:type :State.
+:statesmelanomaPAT_895_1699_872 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_895_1699_872 :isBleeding "False"^^xsd:string.
+:melanomaPAT_895_1699_872 :hasSize :sizemelanomaPAT_895_1699_872.
+:sizemelanomaPAT_895_1699_872 rdf:type :Size.
+:sizemelanomaPAT_895_1699_872 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_895_1699_872 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_895_1699_872 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_895_1699_872 :isofSize "10.0"^^xsd:string.
+:statesmelanomaPAT_895_1699_872 :isofSize "15.0"^^xsd:string.
+:melanomaPAT_895_1699_872 :isLocated :locatedmelanomaPAT_895_1699_872.
+:locatedmelanomaPAT_895_1699_872 rdf:type :BodyPart.
+:locatedmelanomaPAT_895_1699_872 :located "ARM"^^xsd:string.
+:melanomaPAT_895_1699_872 :inFamilyHistory :familymelanomaPAT_895_1699_872.
+:familymelanomaPAT_895_1699_872 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_895_1699_872 rdf:type :FamilyHistory.
+:melanomaPAT_895_1699_872 :inBodyCharacteristic :bodyPAT_895_1699_872.
+:bodyPAT_895_1699_872 rdf:type :BodyCharacteristic.
+:bodyPAT_895_1699_872 :hasAge "65"^^xsd:string.
+:bodyPAT_895_1699_872 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_895_1699_872 :inSkinType :skinPAT_895_1699_872.
+:skinPAT_895_1699_872 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_233_354_935 rdf:type :Melanoma.
+:melanomaPAT_233_354_935 :hasState :statesmelanomaPAT_233_354_935.
+:statesmelanomaPAT_233_354_935 rdf:type :State.
+:statesmelanomaPAT_233_354_935 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_233_354_935 :isBleeding "False"^^xsd:string.
+:melanomaPAT_233_354_935 :hasSize :sizemelanomaPAT_233_354_935.
+:sizemelanomaPAT_233_354_935 rdf:type :Size.
+:sizemelanomaPAT_233_354_935 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_233_354_935 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_233_354_935 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_233_354_935 :isofSize "4.0"^^xsd:string.
+:statesmelanomaPAT_233_354_935 :isofSize "9.0"^^xsd:string.
+:melanomaPAT_233_354_935 :isLocated :locatedmelanomaPAT_233_354_935.
+:locatedmelanomaPAT_233_354_935 rdf:type :BodyPart.
+:locatedmelanomaPAT_233_354_935 :located "ARM"^^xsd:string.
+:melanomaPAT_233_354_935 :inFamilyHistory :familymelanomaPAT_233_354_935.
+:familymelanomaPAT_233_354_935 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_233_354_935 rdf:type :FamilyHistory.
+:melanomaPAT_233_354_935 :inBodyCharacteristic :bodyPAT_233_354_935.
+:bodyPAT_233_354_935 rdf:type :BodyCharacteristic.
+:bodyPAT_233_354_935 :hasAge "58"^^xsd:string.
+:bodyPAT_233_354_935 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_233_354_935 :inSkinType :skinPAT_233_354_935.
+:skinPAT_233_354_935 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_109_868_723 rdf:type :Melanoma.
+:melanomaPAT_109_868_723 :hasState :statesmelanomaPAT_109_868_723.
+:statesmelanomaPAT_109_868_723 rdf:type :State.
+:statesmelanomaPAT_109_868_723 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_109_868_723 :isBleeding "False"^^xsd:string.
+:melanomaPAT_109_868_723 :hasSize :sizemelanomaPAT_109_868_723.
+:sizemelanomaPAT_109_868_723 rdf:type :Size.
+:sizemelanomaPAT_109_868_723 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_109_868_723 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_109_868_723 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_109_868_723 :isofSize "6.0"^^xsd:string.
+:statesmelanomaPAT_109_868_723 :isofSize "6.0"^^xsd:string.
+:melanomaPAT_109_868_723 :isLocated :locatedmelanomaPAT_109_868_723.
+:locatedmelanomaPAT_109_868_723 rdf:type :BodyPart.
+:locatedmelanomaPAT_109_868_723 :located "EAR"^^xsd:string.
+:melanomaPAT_109_868_723 :inFamilyHistory :familymelanomaPAT_109_868_723.
+:familymelanomaPAT_109_868_723 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_109_868_723 rdf:type :FamilyHistory.
+:melanomaPAT_109_868_723 :inBodyCharacteristic :bodyPAT_109_868_723.
+:bodyPAT_109_868_723 rdf:type :BodyCharacteristic.
+:bodyPAT_109_868_723 :hasAge "82"^^xsd:string.
+:bodyPAT_109_868_723 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_109_868_723 :inSkinType :skinPAT_109_868_723.
+:skinPAT_109_868_723 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_801_1518_78 rdf:type :Melanoma.
+:melanomaPAT_801_1518_78 :hasState :statesmelanomaPAT_801_1518_78.
+:statesmelanomaPAT_801_1518_78 rdf:type :State.
+:statesmelanomaPAT_801_1518_78 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_801_1518_78 :isBleeding "False"^^xsd:string.
+:melanomaPAT_801_1518_78 :hasSize :sizemelanomaPAT_801_1518_78.
+:sizemelanomaPAT_801_1518_78 rdf:type :Size.
+:sizemelanomaPAT_801_1518_78 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_801_1518_78 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_801_1518_78 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_801_1518_78 :isofSize "8.0"^^xsd:string.
+:statesmelanomaPAT_801_1518_78 :isofSize "20.0"^^xsd:string.
+:melanomaPAT_801_1518_78 :isLocated :locatedmelanomaPAT_801_1518_78.
+:locatedmelanomaPAT_801_1518_78 rdf:type :BodyPart.
+:locatedmelanomaPAT_801_1518_78 :located "NECK"^^xsd:string.
+:melanomaPAT_801_1518_78 :inFamilyHistory :familymelanomaPAT_801_1518_78.
+:familymelanomaPAT_801_1518_78 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_801_1518_78 rdf:type :FamilyHistory.
+:melanomaPAT_801_1518_78 :inBodyCharacteristic :bodyPAT_801_1518_78.
+:bodyPAT_801_1518_78 rdf:type :BodyCharacteristic.
+:bodyPAT_801_1518_78 :hasAge "43"^^xsd:string.
+:bodyPAT_801_1518_78 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_801_1518_78 :inSkinType :skinPAT_801_1518_78.
+:skinPAT_801_1518_78 :typeOfSkin "4.0"^^xsd:string.
+
+
+
+:melanomaPAT_995_1867_165 rdf:type :Melanoma.
+:melanomaPAT_995_1867_165 :hasState :statesmelanomaPAT_995_1867_165.
+:statesmelanomaPAT_995_1867_165 rdf:type :State.
+:statesmelanomaPAT_995_1867_165 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_995_1867_165 :isBleeding "False"^^xsd:string.
+:melanomaPAT_995_1867_165 :hasSize :sizemelanomaPAT_995_1867_165.
+:sizemelanomaPAT_995_1867_165 rdf:type :Size.
+:sizemelanomaPAT_995_1867_165 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_995_1867_165 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_995_1867_165 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_995_1867_165 :isofSize "20.0"^^xsd:string.
+:statesmelanomaPAT_995_1867_165 :isofSize "23.0"^^xsd:string.
+:melanomaPAT_995_1867_165 :isLocated :locatedmelanomaPAT_995_1867_165.
+:locatedmelanomaPAT_995_1867_165 rdf:type :BodyPart.
+:locatedmelanomaPAT_995_1867_165 :located "THIGH"^^xsd:string.
+:melanomaPAT_995_1867_165 :inFamilyHistory :familymelanomaPAT_995_1867_165.
+:familymelanomaPAT_995_1867_165 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_995_1867_165 rdf:type :FamilyHistory.
+:melanomaPAT_995_1867_165 :inBodyCharacteristic :bodyPAT_995_1867_165.
+:bodyPAT_995_1867_165 rdf:type :BodyCharacteristic.
+:bodyPAT_995_1867_165 :hasAge "49"^^xsd:string.
+:bodyPAT_995_1867_165 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_995_1867_165 :inSkinType :skinPAT_995_1867_165.
+:skinPAT_995_1867_165 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_746_1407_708 rdf:type :Melanoma.
+:melanomaPAT_746_1407_708 :hasState :statesmelanomaPAT_746_1407_708.
+:statesmelanomaPAT_746_1407_708 rdf:type :State.
+:statesmelanomaPAT_746_1407_708 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_746_1407_708 :isBleeding "False"^^xsd:string.
+:melanomaPAT_746_1407_708 :hasSize :sizemelanomaPAT_746_1407_708.
+:sizemelanomaPAT_746_1407_708 rdf:type :Size.
+:sizemelanomaPAT_746_1407_708 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_746_1407_708 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_746_1407_708 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_746_1407_708 :isofSize "17.0"^^xsd:string.
+:statesmelanomaPAT_746_1407_708 :isofSize "20.0"^^xsd:string.
+:melanomaPAT_746_1407_708 :isLocated :locatedmelanomaPAT_746_1407_708.
+:locatedmelanomaPAT_746_1407_708 rdf:type :BodyPart.
+:locatedmelanomaPAT_746_1407_708 :located "BACK"^^xsd:string.
+:melanomaPAT_746_1407_708 :inFamilyHistory :familymelanomaPAT_746_1407_708.
+:familymelanomaPAT_746_1407_708 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_746_1407_708 rdf:type :FamilyHistory.
+:melanomaPAT_746_1407_708 :inBodyCharacteristic :bodyPAT_746_1407_708.
+:bodyPAT_746_1407_708 rdf:type :BodyCharacteristic.
+:bodyPAT_746_1407_708 :hasAge "71"^^xsd:string.
+:bodyPAT_746_1407_708 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_746_1407_708 :inSkinType :skinPAT_746_1407_708.
+:skinPAT_746_1407_708 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_975_1834_152 rdf:type :Melanoma.
+:melanomaPAT_975_1834_152 :hasState :statesmelanomaPAT_975_1834_152.
+:statesmelanomaPAT_975_1834_152 rdf:type :State.
+:statesmelanomaPAT_975_1834_152 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_975_1834_152 :isBleeding "False"^^xsd:string.
+:melanomaPAT_975_1834_152 :hasSize :sizemelanomaPAT_975_1834_152.
+:sizemelanomaPAT_975_1834_152 rdf:type :Size.
+:sizemelanomaPAT_975_1834_152 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_975_1834_152 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_975_1834_152 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_975_1834_152 :isofSize "10.0"^^xsd:string.
+:statesmelanomaPAT_975_1834_152 :isofSize "20.0"^^xsd:string.
+:melanomaPAT_975_1834_152 :isLocated :locatedmelanomaPAT_975_1834_152.
+:locatedmelanomaPAT_975_1834_152 rdf:type :BodyPart.
+:locatedmelanomaPAT_975_1834_152 :located "BACK"^^xsd:string.
+:melanomaPAT_975_1834_152 :inFamilyHistory :familymelanomaPAT_975_1834_152.
+:familymelanomaPAT_975_1834_152 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_975_1834_152 rdf:type :FamilyHistory.
+:melanomaPAT_975_1834_152 :inBodyCharacteristic :bodyPAT_975_1834_152.
+:bodyPAT_975_1834_152 rdf:type :BodyCharacteristic.
+:bodyPAT_975_1834_152 :hasAge "21"^^xsd:string.
+:bodyPAT_975_1834_152 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_975_1834_152 :inSkinType :skinPAT_975_1834_152.
+:skinPAT_975_1834_152 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_433_852_20 rdf:type :Melanoma.
+:melanomaPAT_433_852_20 :hasState :statesmelanomaPAT_433_852_20.
+:statesmelanomaPAT_433_852_20 rdf:type :State.
+:statesmelanomaPAT_433_852_20 :hasBump "UNK"^^xsd:boolean.
+:statesmelanomaPAT_433_852_20 :isBleeding "False"^^xsd:string.
+:melanomaPAT_433_852_20 :hasSize :sizemelanomaPAT_433_852_20.
+:sizemelanomaPAT_433_852_20 rdf:type :Size.
+:sizemelanomaPAT_433_852_20 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_433_852_20 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_433_852_20 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_433_852_20 :isofSize "20.0"^^xsd:string.
+:statesmelanomaPAT_433_852_20 :isofSize "20.0"^^xsd:string.
+:melanomaPAT_433_852_20 :isLocated :locatedmelanomaPAT_433_852_20.
+:locatedmelanomaPAT_433_852_20 rdf:type :BodyPart.
+:locatedmelanomaPAT_433_852_20 :located "NECK"^^xsd:string.
+:melanomaPAT_433_852_20 :inFamilyHistory :familymelanomaPAT_433_852_20.
+:familymelanomaPAT_433_852_20 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_433_852_20 rdf:type :FamilyHistory.
+:melanomaPAT_433_852_20 :inBodyCharacteristic :bodyPAT_433_852_20.
+:bodyPAT_433_852_20 rdf:type :BodyCharacteristic.
+:bodyPAT_433_852_20 :hasAge "30"^^xsd:string.
+:bodyPAT_433_852_20 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_433_852_20 :inSkinType :skinPAT_433_852_20.
+:skinPAT_433_852_20 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_109_868_113 rdf:type :Melanoma.
+:melanomaPAT_109_868_113 :hasState :statesmelanomaPAT_109_868_113.
+:statesmelanomaPAT_109_868_113 rdf:type :State.
+:statesmelanomaPAT_109_868_113 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_109_868_113 :isBleeding "False"^^xsd:string.
+:melanomaPAT_109_868_113 :hasSize :sizemelanomaPAT_109_868_113.
+:sizemelanomaPAT_109_868_113 rdf:type :Size.
+:sizemelanomaPAT_109_868_113 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_109_868_113 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_109_868_113 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_109_868_113 :isofSize "6.0"^^xsd:string.
+:statesmelanomaPAT_109_868_113 :isofSize "6.0"^^xsd:string.
+:melanomaPAT_109_868_113 :isLocated :locatedmelanomaPAT_109_868_113.
+:locatedmelanomaPAT_109_868_113 rdf:type :BodyPart.
+:locatedmelanomaPAT_109_868_113 :located "EAR"^^xsd:string.
+:melanomaPAT_109_868_113 :inFamilyHistory :familymelanomaPAT_109_868_113.
+:familymelanomaPAT_109_868_113 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_109_868_113 rdf:type :FamilyHistory.
+:melanomaPAT_109_868_113 :inBodyCharacteristic :bodyPAT_109_868_113.
+:bodyPAT_109_868_113 rdf:type :BodyCharacteristic.
+:bodyPAT_109_868_113 :hasAge "82"^^xsd:string.
+:bodyPAT_109_868_113 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_109_868_113 :inSkinType :skinPAT_109_868_113.
+:skinPAT_109_868_113 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_884_1683_538 rdf:type :Melanoma.
+:melanomaPAT_884_1683_538 :hasState :statesmelanomaPAT_884_1683_538.
+:statesmelanomaPAT_884_1683_538 rdf:type :State.
+:statesmelanomaPAT_884_1683_538 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_884_1683_538 :isBleeding "False"^^xsd:string.
+:melanomaPAT_884_1683_538 :hasSize :sizemelanomaPAT_884_1683_538.
+:sizemelanomaPAT_884_1683_538 rdf:type :Size.
+:sizemelanomaPAT_884_1683_538 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_884_1683_538 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_884_1683_538 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_884_1683_538 :isofSize "15.0"^^xsd:string.
+:statesmelanomaPAT_884_1683_538 :isofSize "25.0"^^xsd:string.
+:melanomaPAT_884_1683_538 :isLocated :locatedmelanomaPAT_884_1683_538.
+:locatedmelanomaPAT_884_1683_538 rdf:type :BodyPart.
+:locatedmelanomaPAT_884_1683_538 :located "BACK"^^xsd:string.
+:melanomaPAT_884_1683_538 :inFamilyHistory :familymelanomaPAT_884_1683_538.
+:familymelanomaPAT_884_1683_538 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_884_1683_538 rdf:type :FamilyHistory.
+:melanomaPAT_884_1683_538 :inBodyCharacteristic :bodyPAT_884_1683_538.
+:bodyPAT_884_1683_538 rdf:type :BodyCharacteristic.
+:bodyPAT_884_1683_538 :hasAge "50"^^xsd:string.
+:bodyPAT_884_1683_538 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_884_1683_538 :inSkinType :skinPAT_884_1683_538.
+:skinPAT_884_1683_538 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_340_714_314 rdf:type :Melanoma.
+:melanomaPAT_340_714_314 :hasState :statesmelanomaPAT_340_714_314.
+:statesmelanomaPAT_340_714_314 rdf:type :State.
+:statesmelanomaPAT_340_714_314 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_340_714_314 :isBleeding "False"^^xsd:string.
+:melanomaPAT_340_714_314 :hasSize :sizemelanomaPAT_340_714_314.
+:sizemelanomaPAT_340_714_314 rdf:type :Size.
+:sizemelanomaPAT_340_714_314 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_340_714_314 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_340_714_314 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_340_714_314 :isofSize "12.0"^^xsd:string.
+:statesmelanomaPAT_340_714_314 :isofSize "14.0"^^xsd:string.
+:melanomaPAT_340_714_314 :isLocated :locatedmelanomaPAT_340_714_314.
+:locatedmelanomaPAT_340_714_314 rdf:type :BodyPart.
+:locatedmelanomaPAT_340_714_314 :located "BACK"^^xsd:string.
+:melanomaPAT_340_714_314 :inFamilyHistory :familymelanomaPAT_340_714_314.
+:familymelanomaPAT_340_714_314 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_340_714_314 rdf:type :FamilyHistory.
+:melanomaPAT_340_714_314 :inBodyCharacteristic :bodyPAT_340_714_314.
+:bodyPAT_340_714_314 rdf:type :BodyCharacteristic.
+:bodyPAT_340_714_314 :hasAge "54"^^xsd:string.
+:bodyPAT_340_714_314 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_340_714_314 :inSkinType :skinPAT_340_714_314.
+:skinPAT_340_714_314 :typeOfSkin "4.0"^^xsd:string.
+
+
+
+:melanomaPAT_717_1347_899 rdf:type :Melanoma.
+:melanomaPAT_717_1347_899 :hasState :statesmelanomaPAT_717_1347_899.
+:statesmelanomaPAT_717_1347_899 rdf:type :State.
+:statesmelanomaPAT_717_1347_899 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_717_1347_899 :isBleeding "False"^^xsd:string.
+:melanomaPAT_717_1347_899 :hasSize :sizemelanomaPAT_717_1347_899.
+:sizemelanomaPAT_717_1347_899 rdf:type :Size.
+:sizemelanomaPAT_717_1347_899 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_717_1347_899 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_717_1347_899 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_717_1347_899 :isofSize "26.0"^^xsd:string.
+:statesmelanomaPAT_717_1347_899 :isofSize "30.0"^^xsd:string.
+:melanomaPAT_717_1347_899 :isLocated :locatedmelanomaPAT_717_1347_899.
+:locatedmelanomaPAT_717_1347_899 rdf:type :BodyPart.
+:locatedmelanomaPAT_717_1347_899 :located "FOREARM"^^xsd:string.
+:melanomaPAT_717_1347_899 :inFamilyHistory :familymelanomaPAT_717_1347_899.
+:familymelanomaPAT_717_1347_899 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_717_1347_899 rdf:type :FamilyHistory.
+:melanomaPAT_717_1347_899 :inBodyCharacteristic :bodyPAT_717_1347_899.
+:bodyPAT_717_1347_899 rdf:type :BodyCharacteristic.
+:bodyPAT_717_1347_899 :hasAge "61"^^xsd:string.
+:bodyPAT_717_1347_899 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_717_1347_899 :inSkinType :skinPAT_717_1347_899.
+:skinPAT_717_1347_899 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_719_1361_234 rdf:type :Melanoma.
+:melanomaPAT_719_1361_234 :hasState :statesmelanomaPAT_719_1361_234.
+:statesmelanomaPAT_719_1361_234 rdf:type :State.
+:statesmelanomaPAT_719_1361_234 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_719_1361_234 :isBleeding "False"^^xsd:string.
+:melanomaPAT_719_1361_234 :hasSize :sizemelanomaPAT_719_1361_234.
+:sizemelanomaPAT_719_1361_234 rdf:type :Size.
+:sizemelanomaPAT_719_1361_234 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_719_1361_234 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_719_1361_234 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_719_1361_234 :isofSize "19.0"^^xsd:string.
+:statesmelanomaPAT_719_1361_234 :isofSize "29.0"^^xsd:string.
+:melanomaPAT_719_1361_234 :isLocated :locatedmelanomaPAT_719_1361_234.
+:locatedmelanomaPAT_719_1361_234 rdf:type :BodyPart.
+:locatedmelanomaPAT_719_1361_234 :located "FOREARM"^^xsd:string.
+:melanomaPAT_719_1361_234 :inFamilyHistory :familymelanomaPAT_719_1361_234.
+:familymelanomaPAT_719_1361_234 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_719_1361_234 rdf:type :FamilyHistory.
+:melanomaPAT_719_1361_234 :inBodyCharacteristic :bodyPAT_719_1361_234.
+:bodyPAT_719_1361_234 rdf:type :BodyCharacteristic.
+:bodyPAT_719_1361_234 :hasAge "66"^^xsd:string.
+:bodyPAT_719_1361_234 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_719_1361_234 :inSkinType :skinPAT_719_1361_234.
+:skinPAT_719_1361_234 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_902_1718_852 rdf:type :Melanoma.
+:melanomaPAT_902_1718_852 :hasState :statesmelanomaPAT_902_1718_852.
+:statesmelanomaPAT_902_1718_852 rdf:type :State.
+:statesmelanomaPAT_902_1718_852 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_902_1718_852 :isBleeding "False"^^xsd:string.
+:melanomaPAT_902_1718_852 :hasSize :sizemelanomaPAT_902_1718_852.
+:sizemelanomaPAT_902_1718_852 rdf:type :Size.
+:sizemelanomaPAT_902_1718_852 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_902_1718_852 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_902_1718_852 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_902_1718_852 :isofSize "10.0"^^xsd:string.
+:statesmelanomaPAT_902_1718_852 :isofSize "16.0"^^xsd:string.
+:melanomaPAT_902_1718_852 :isLocated :locatedmelanomaPAT_902_1718_852.
+:locatedmelanomaPAT_902_1718_852 rdf:type :BodyPart.
+:locatedmelanomaPAT_902_1718_852 :located "THIGH"^^xsd:string.
+:melanomaPAT_902_1718_852 :inFamilyHistory :familymelanomaPAT_902_1718_852.
+:familymelanomaPAT_902_1718_852 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_902_1718_852 rdf:type :FamilyHistory.
+:melanomaPAT_902_1718_852 :inBodyCharacteristic :bodyPAT_902_1718_852.
+:bodyPAT_902_1718_852 rdf:type :BodyCharacteristic.
+:bodyPAT_902_1718_852 :hasAge "58"^^xsd:string.
+:bodyPAT_902_1718_852 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_902_1718_852 :inSkinType :skinPAT_902_1718_852.
+:skinPAT_902_1718_852 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_486_929_274 rdf:type :Melanoma.
+:melanomaPAT_486_929_274 :hasState :statesmelanomaPAT_486_929_274.
+:statesmelanomaPAT_486_929_274 rdf:type :State.
+:statesmelanomaPAT_486_929_274 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_486_929_274 :isBleeding "False"^^xsd:string.
+:melanomaPAT_486_929_274 :hasSize :sizemelanomaPAT_486_929_274.
+:sizemelanomaPAT_486_929_274 rdf:type :Size.
+:sizemelanomaPAT_486_929_274 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_486_929_274 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_486_929_274 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_486_929_274 :isofSize "12.0"^^xsd:string.
+:statesmelanomaPAT_486_929_274 :isofSize "16.0"^^xsd:string.
+:melanomaPAT_486_929_274 :isLocated :locatedmelanomaPAT_486_929_274.
+:locatedmelanomaPAT_486_929_274 rdf:type :BodyPart.
+:locatedmelanomaPAT_486_929_274 :located "ABDOMEN"^^xsd:string.
+:melanomaPAT_486_929_274 :inFamilyHistory :familymelanomaPAT_486_929_274.
+:familymelanomaPAT_486_929_274 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_486_929_274 rdf:type :FamilyHistory.
+:melanomaPAT_486_929_274 :inBodyCharacteristic :bodyPAT_486_929_274.
+:bodyPAT_486_929_274 rdf:type :BodyCharacteristic.
+:bodyPAT_486_929_274 :hasAge "57"^^xsd:string.
+:bodyPAT_486_929_274 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_486_929_274 :inSkinType :skinPAT_486_929_274.
+:skinPAT_486_929_274 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_936_1772_886 rdf:type :Melanoma.
+:melanomaPAT_936_1772_886 :hasState :statesmelanomaPAT_936_1772_886.
+:statesmelanomaPAT_936_1772_886 rdf:type :State.
+:statesmelanomaPAT_936_1772_886 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_936_1772_886 :isBleeding "False"^^xsd:string.
+:melanomaPAT_936_1772_886 :hasSize :sizemelanomaPAT_936_1772_886.
+:sizemelanomaPAT_936_1772_886 rdf:type :Size.
+:sizemelanomaPAT_936_1772_886 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_936_1772_886 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_936_1772_886 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_936_1772_886 :isofSize "30.0"^^xsd:string.
+:statesmelanomaPAT_936_1772_886 :isofSize "31.0"^^xsd:string.
+:melanomaPAT_936_1772_886 :isLocated :locatedmelanomaPAT_936_1772_886.
+:locatedmelanomaPAT_936_1772_886 rdf:type :BodyPart.
+:locatedmelanomaPAT_936_1772_886 :located "BACK"^^xsd:string.
+:melanomaPAT_936_1772_886 :inFamilyHistory :familymelanomaPAT_936_1772_886.
+:familymelanomaPAT_936_1772_886 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_936_1772_886 rdf:type :FamilyHistory.
+:melanomaPAT_936_1772_886 :inBodyCharacteristic :bodyPAT_936_1772_886.
+:bodyPAT_936_1772_886 rdf:type :BodyCharacteristic.
+:bodyPAT_936_1772_886 :hasAge "63"^^xsd:string.
+:bodyPAT_936_1772_886 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_936_1772_886 :inSkinType :skinPAT_936_1772_886.
+:skinPAT_936_1772_886 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_270_417_257 rdf:type :Melanoma.
+:melanomaPAT_270_417_257 :hasState :statesmelanomaPAT_270_417_257.
+:statesmelanomaPAT_270_417_257 rdf:type :State.
+:statesmelanomaPAT_270_417_257 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_270_417_257 :isBleeding "False"^^xsd:string.
+:melanomaPAT_270_417_257 :hasSize :sizemelanomaPAT_270_417_257.
+:sizemelanomaPAT_270_417_257 rdf:type :Size.
+:sizemelanomaPAT_270_417_257 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_270_417_257 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_270_417_257 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_270_417_257 :isofSize "7.0"^^xsd:string.
+:statesmelanomaPAT_270_417_257 :isofSize "13.0"^^xsd:string.
+:melanomaPAT_270_417_257 :isLocated :locatedmelanomaPAT_270_417_257.
+:locatedmelanomaPAT_270_417_257 rdf:type :BodyPart.
+:locatedmelanomaPAT_270_417_257 :located "HAND"^^xsd:string.
+:melanomaPAT_270_417_257 :inFamilyHistory :familymelanomaPAT_270_417_257.
+:familymelanomaPAT_270_417_257 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_270_417_257 rdf:type :FamilyHistory.
+:melanomaPAT_270_417_257 :inBodyCharacteristic :bodyPAT_270_417_257.
+:bodyPAT_270_417_257 rdf:type :BodyCharacteristic.
+:bodyPAT_270_417_257 :hasAge "90"^^xsd:string.
+:bodyPAT_270_417_257 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_270_417_257 :inSkinType :skinPAT_270_417_257.
+:skinPAT_270_417_257 :typeOfSkin "1.0"^^xsd:string.
+
+
+
+:melanomaPAT_801_1518_574 rdf:type :Melanoma.
+:melanomaPAT_801_1518_574 :hasState :statesmelanomaPAT_801_1518_574.
+:statesmelanomaPAT_801_1518_574 rdf:type :State.
+:statesmelanomaPAT_801_1518_574 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_801_1518_574 :isBleeding "False"^^xsd:string.
+:melanomaPAT_801_1518_574 :hasSize :sizemelanomaPAT_801_1518_574.
+:sizemelanomaPAT_801_1518_574 rdf:type :Size.
+:sizemelanomaPAT_801_1518_574 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_801_1518_574 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_801_1518_574 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_801_1518_574 :isofSize "8.0"^^xsd:string.
+:statesmelanomaPAT_801_1518_574 :isofSize "20.0"^^xsd:string.
+:melanomaPAT_801_1518_574 :isLocated :locatedmelanomaPAT_801_1518_574.
+:locatedmelanomaPAT_801_1518_574 rdf:type :BodyPart.
+:locatedmelanomaPAT_801_1518_574 :located "NECK"^^xsd:string.
+:melanomaPAT_801_1518_574 :inFamilyHistory :familymelanomaPAT_801_1518_574.
+:familymelanomaPAT_801_1518_574 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_801_1518_574 rdf:type :FamilyHistory.
+:melanomaPAT_801_1518_574 :inBodyCharacteristic :bodyPAT_801_1518_574.
+:bodyPAT_801_1518_574 rdf:type :BodyCharacteristic.
+:bodyPAT_801_1518_574 :hasAge "43"^^xsd:string.
+:bodyPAT_801_1518_574 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_801_1518_574 :inSkinType :skinPAT_801_1518_574.
+:skinPAT_801_1518_574 :typeOfSkin "4.0"^^xsd:string.
+
+
+
+:melanomaPAT_622_1185_922 rdf:type :Melanoma.
+:melanomaPAT_622_1185_922 :hasState :statesmelanomaPAT_622_1185_922.
+:statesmelanomaPAT_622_1185_922 rdf:type :State.
+:statesmelanomaPAT_622_1185_922 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_622_1185_922 :isBleeding "False"^^xsd:string.
+:melanomaPAT_622_1185_922 :hasSize :sizemelanomaPAT_622_1185_922.
+:sizemelanomaPAT_622_1185_922 rdf:type :Size.
+:sizemelanomaPAT_622_1185_922 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_622_1185_922 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_622_1185_922 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_622_1185_922 :isofSize "10.0"^^xsd:string.
+:statesmelanomaPAT_622_1185_922 :isofSize "10.0"^^xsd:string.
+:melanomaPAT_622_1185_922 :isLocated :locatedmelanomaPAT_622_1185_922.
+:locatedmelanomaPAT_622_1185_922 rdf:type :BodyPart.
+:locatedmelanomaPAT_622_1185_922 :located "BACK"^^xsd:string.
+:melanomaPAT_622_1185_922 :inFamilyHistory :familymelanomaPAT_622_1185_922.
+:familymelanomaPAT_622_1185_922 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_622_1185_922 rdf:type :FamilyHistory.
+:melanomaPAT_622_1185_922 :inBodyCharacteristic :bodyPAT_622_1185_922.
+:bodyPAT_622_1185_922 rdf:type :BodyCharacteristic.
+:bodyPAT_622_1185_922 :hasAge "71"^^xsd:string.
+:bodyPAT_622_1185_922 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_622_1185_922 :inSkinType :skinPAT_622_1185_922.
+:skinPAT_622_1185_922 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_656_1246_483 rdf:type :Melanoma.
+:melanomaPAT_656_1246_483 :hasState :statesmelanomaPAT_656_1246_483.
+:statesmelanomaPAT_656_1246_483 rdf:type :State.
+:statesmelanomaPAT_656_1246_483 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_656_1246_483 :isBleeding "False"^^xsd:string.
+:melanomaPAT_656_1246_483 :hasSize :sizemelanomaPAT_656_1246_483.
+:sizemelanomaPAT_656_1246_483 rdf:type :Size.
+:sizemelanomaPAT_656_1246_483 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_656_1246_483 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_656_1246_483 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_656_1246_483 :isofSize "12.0"^^xsd:string.
+:statesmelanomaPAT_656_1246_483 :isofSize "18.0"^^xsd:string.
+:melanomaPAT_656_1246_483 :isLocated :locatedmelanomaPAT_656_1246_483.
+:locatedmelanomaPAT_656_1246_483 rdf:type :BodyPart.
+:locatedmelanomaPAT_656_1246_483 :located "BACK"^^xsd:string.
+:melanomaPAT_656_1246_483 :inFamilyHistory :familymelanomaPAT_656_1246_483.
+:familymelanomaPAT_656_1246_483 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_656_1246_483 rdf:type :FamilyHistory.
+:melanomaPAT_656_1246_483 :inBodyCharacteristic :bodyPAT_656_1246_483.
+:bodyPAT_656_1246_483 rdf:type :BodyCharacteristic.
+:bodyPAT_656_1246_483 :hasAge "58"^^xsd:string.
+:bodyPAT_656_1246_483 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_656_1246_483 :inSkinType :skinPAT_656_1246_483.
+:skinPAT_656_1246_483 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_680_1289_585 rdf:type :Melanoma.
+:melanomaPAT_680_1289_585 :hasState :statesmelanomaPAT_680_1289_585.
+:statesmelanomaPAT_680_1289_585 rdf:type :State.
+:statesmelanomaPAT_680_1289_585 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_680_1289_585 :isBleeding "False"^^xsd:string.
+:melanomaPAT_680_1289_585 :hasSize :sizemelanomaPAT_680_1289_585.
+:sizemelanomaPAT_680_1289_585 rdf:type :Size.
+:sizemelanomaPAT_680_1289_585 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_680_1289_585 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_680_1289_585 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_680_1289_585 :isofSize "10.0"^^xsd:string.
+:statesmelanomaPAT_680_1289_585 :isofSize "10.0"^^xsd:string.
+:melanomaPAT_680_1289_585 :isLocated :locatedmelanomaPAT_680_1289_585.
+:locatedmelanomaPAT_680_1289_585 rdf:type :BodyPart.
+:locatedmelanomaPAT_680_1289_585 :located "BACK"^^xsd:string.
+:melanomaPAT_680_1289_585 :inFamilyHistory :familymelanomaPAT_680_1289_585.
+:familymelanomaPAT_680_1289_585 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_680_1289_585 rdf:type :FamilyHistory.
+:melanomaPAT_680_1289_585 :inBodyCharacteristic :bodyPAT_680_1289_585.
+:bodyPAT_680_1289_585 rdf:type :BodyCharacteristic.
+:bodyPAT_680_1289_585 :hasAge "78"^^xsd:string.
+:bodyPAT_680_1289_585 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_680_1289_585 :inSkinType :skinPAT_680_1289_585.
+:skinPAT_680_1289_585 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_320_681_724 rdf:type :Melanoma.
+:melanomaPAT_320_681_724 :hasState :statesmelanomaPAT_320_681_724.
+:statesmelanomaPAT_320_681_724 rdf:type :State.
+:statesmelanomaPAT_320_681_724 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_320_681_724 :isBleeding "False"^^xsd:string.
+:melanomaPAT_320_681_724 :hasSize :sizemelanomaPAT_320_681_724.
+:sizemelanomaPAT_320_681_724 rdf:type :Size.
+:sizemelanomaPAT_320_681_724 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_320_681_724 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_320_681_724 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_320_681_724 :isofSize "9.0"^^xsd:string.
+:statesmelanomaPAT_320_681_724 :isofSize "9.0"^^xsd:string.
+:melanomaPAT_320_681_724 :isLocated :locatedmelanomaPAT_320_681_724.
+:locatedmelanomaPAT_320_681_724 rdf:type :BodyPart.
+:locatedmelanomaPAT_320_681_724 :located "FACE"^^xsd:string.
+:melanomaPAT_320_681_724 :inFamilyHistory :familymelanomaPAT_320_681_724.
+:familymelanomaPAT_320_681_724 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_320_681_724 rdf:type :FamilyHistory.
+:melanomaPAT_320_681_724 :inBodyCharacteristic :bodyPAT_320_681_724.
+:bodyPAT_320_681_724 rdf:type :BodyCharacteristic.
+:bodyPAT_320_681_724 :hasAge "70"^^xsd:string.
+:bodyPAT_320_681_724 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_320_681_724 :inSkinType :skinPAT_320_681_724.
+:skinPAT_320_681_724 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_611_1158_156 rdf:type :Melanoma.
+:melanomaPAT_611_1158_156 :hasState :statesmelanomaPAT_611_1158_156.
+:statesmelanomaPAT_611_1158_156 rdf:type :State.
+:statesmelanomaPAT_611_1158_156 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_611_1158_156 :isBleeding "False"^^xsd:string.
+:melanomaPAT_611_1158_156 :hasSize :sizemelanomaPAT_611_1158_156.
+:sizemelanomaPAT_611_1158_156 rdf:type :Size.
+:sizemelanomaPAT_611_1158_156 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_611_1158_156 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_611_1158_156 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_611_1158_156 :isofSize "5.0"^^xsd:string.
+:statesmelanomaPAT_611_1158_156 :isofSize "6.0"^^xsd:string.
+:melanomaPAT_611_1158_156 :isLocated :locatedmelanomaPAT_611_1158_156.
+:locatedmelanomaPAT_611_1158_156 rdf:type :BodyPart.
+:locatedmelanomaPAT_611_1158_156 :located "THIGH"^^xsd:string.
+:melanomaPAT_611_1158_156 :inFamilyHistory :familymelanomaPAT_611_1158_156.
+:familymelanomaPAT_611_1158_156 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_611_1158_156 rdf:type :FamilyHistory.
+:melanomaPAT_611_1158_156 :inBodyCharacteristic :bodyPAT_611_1158_156.
+:bodyPAT_611_1158_156 rdf:type :BodyCharacteristic.
+:bodyPAT_611_1158_156 :hasAge "68"^^xsd:string.
+:bodyPAT_611_1158_156 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_611_1158_156 :inSkinType :skinPAT_611_1158_156.
+:skinPAT_611_1158_156 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_262_402_14 rdf:type :Melanoma.
+:melanomaPAT_262_402_14 :hasState :statesmelanomaPAT_262_402_14.
+:statesmelanomaPAT_262_402_14 rdf:type :State.
+:statesmelanomaPAT_262_402_14 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_262_402_14 :isBleeding "False"^^xsd:string.
+:melanomaPAT_262_402_14 :hasSize :sizemelanomaPAT_262_402_14.
+:sizemelanomaPAT_262_402_14 rdf:type :Size.
+:sizemelanomaPAT_262_402_14 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_262_402_14 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_262_402_14 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_262_402_14 :isofSize "15.0"^^xsd:string.
+:statesmelanomaPAT_262_402_14 :isofSize "22.0"^^xsd:string.
+:melanomaPAT_262_402_14 :isLocated :locatedmelanomaPAT_262_402_14.
+:locatedmelanomaPAT_262_402_14 rdf:type :BodyPart.
+:locatedmelanomaPAT_262_402_14 :located "ARM"^^xsd:string.
+:melanomaPAT_262_402_14 :inFamilyHistory :familymelanomaPAT_262_402_14.
+:familymelanomaPAT_262_402_14 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_262_402_14 rdf:type :FamilyHistory.
+:melanomaPAT_262_402_14 :inBodyCharacteristic :bodyPAT_262_402_14.
+:bodyPAT_262_402_14 rdf:type :BodyCharacteristic.
+:bodyPAT_262_402_14 :hasAge "41"^^xsd:string.
+:bodyPAT_262_402_14 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_262_402_14 :inSkinType :skinPAT_262_402_14.
+:skinPAT_262_402_14 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_70_107_591 rdf:type :Melanoma.
+:melanomaPAT_70_107_591 :hasState :statesmelanomaPAT_70_107_591.
+:statesmelanomaPAT_70_107_591 rdf:type :State.
+:statesmelanomaPAT_70_107_591 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_70_107_591 :isBleeding "False"^^xsd:string.
+:melanomaPAT_70_107_591 :hasSize :sizemelanomaPAT_70_107_591.
+:sizemelanomaPAT_70_107_591 rdf:type :Size.
+:sizemelanomaPAT_70_107_591 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_70_107_591 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_70_107_591 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_70_107_591 :isofSize "7.0"^^xsd:string.
+:statesmelanomaPAT_70_107_591 :isofSize "9.0"^^xsd:string.
+:melanomaPAT_70_107_591 :isLocated :locatedmelanomaPAT_70_107_591.
+:locatedmelanomaPAT_70_107_591 rdf:type :BodyPart.
+:locatedmelanomaPAT_70_107_591 :located "THIGH"^^xsd:string.
+:melanomaPAT_70_107_591 :inFamilyHistory :familymelanomaPAT_70_107_591.
+:familymelanomaPAT_70_107_591 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_70_107_591 rdf:type :FamilyHistory.
+:melanomaPAT_70_107_591 :inBodyCharacteristic :bodyPAT_70_107_591.
+:bodyPAT_70_107_591 rdf:type :BodyCharacteristic.
+:bodyPAT_70_107_591 :hasAge "67"^^xsd:string.
+:bodyPAT_70_107_591 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_70_107_591 :inSkinType :skinPAT_70_107_591.
+:skinPAT_70_107_591 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_262_402_265 rdf:type :Melanoma.
+:melanomaPAT_262_402_265 :hasState :statesmelanomaPAT_262_402_265.
+:statesmelanomaPAT_262_402_265 rdf:type :State.
+:statesmelanomaPAT_262_402_265 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_262_402_265 :isBleeding "False"^^xsd:string.
+:melanomaPAT_262_402_265 :hasSize :sizemelanomaPAT_262_402_265.
+:sizemelanomaPAT_262_402_265 rdf:type :Size.
+:sizemelanomaPAT_262_402_265 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_262_402_265 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_262_402_265 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_262_402_265 :isofSize "15.0"^^xsd:string.
+:statesmelanomaPAT_262_402_265 :isofSize "22.0"^^xsd:string.
+:melanomaPAT_262_402_265 :isLocated :locatedmelanomaPAT_262_402_265.
+:locatedmelanomaPAT_262_402_265 rdf:type :BodyPart.
+:locatedmelanomaPAT_262_402_265 :located "ARM"^^xsd:string.
+:melanomaPAT_262_402_265 :inFamilyHistory :familymelanomaPAT_262_402_265.
+:familymelanomaPAT_262_402_265 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_262_402_265 rdf:type :FamilyHistory.
+:melanomaPAT_262_402_265 :inBodyCharacteristic :bodyPAT_262_402_265.
+:bodyPAT_262_402_265 rdf:type :BodyCharacteristic.
+:bodyPAT_262_402_265 :hasAge "41"^^xsd:string.
+:bodyPAT_262_402_265 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_262_402_265 :inSkinType :skinPAT_262_402_265.
+:skinPAT_262_402_265 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_270_417_728 rdf:type :Melanoma.
+:melanomaPAT_270_417_728 :hasState :statesmelanomaPAT_270_417_728.
+:statesmelanomaPAT_270_417_728 rdf:type :State.
+:statesmelanomaPAT_270_417_728 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_270_417_728 :isBleeding "False"^^xsd:string.
+:melanomaPAT_270_417_728 :hasSize :sizemelanomaPAT_270_417_728.
+:sizemelanomaPAT_270_417_728 rdf:type :Size.
+:sizemelanomaPAT_270_417_728 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_270_417_728 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_270_417_728 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_270_417_728 :isofSize "7.0"^^xsd:string.
+:statesmelanomaPAT_270_417_728 :isofSize "13.0"^^xsd:string.
+:melanomaPAT_270_417_728 :isLocated :locatedmelanomaPAT_270_417_728.
+:locatedmelanomaPAT_270_417_728 rdf:type :BodyPart.
+:locatedmelanomaPAT_270_417_728 :located "HAND"^^xsd:string.
+:melanomaPAT_270_417_728 :inFamilyHistory :familymelanomaPAT_270_417_728.
+:familymelanomaPAT_270_417_728 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_270_417_728 rdf:type :FamilyHistory.
+:melanomaPAT_270_417_728 :inBodyCharacteristic :bodyPAT_270_417_728.
+:bodyPAT_270_417_728 rdf:type :BodyCharacteristic.
+:bodyPAT_270_417_728 :hasAge "90"^^xsd:string.
+:bodyPAT_270_417_728 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_270_417_728 :inSkinType :skinPAT_270_417_728.
+:skinPAT_270_417_728 :typeOfSkin "1.0"^^xsd:string.
+
+
+
+:melanomaPAT_333_702_840 rdf:type :Melanoma.
+:melanomaPAT_333_702_840 :hasState :statesmelanomaPAT_333_702_840.
+:statesmelanomaPAT_333_702_840 rdf:type :State.
+:statesmelanomaPAT_333_702_840 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_333_702_840 :isBleeding "False"^^xsd:string.
+:melanomaPAT_333_702_840 :hasSize :sizemelanomaPAT_333_702_840.
+:sizemelanomaPAT_333_702_840 rdf:type :Size.
+:sizemelanomaPAT_333_702_840 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_333_702_840 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_333_702_840 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_333_702_840 :isofSize "5.0"^^xsd:string.
+:statesmelanomaPAT_333_702_840 :isofSize "7.0"^^xsd:string.
+:melanomaPAT_333_702_840 :isLocated :locatedmelanomaPAT_333_702_840.
+:locatedmelanomaPAT_333_702_840 rdf:type :BodyPart.
+:locatedmelanomaPAT_333_702_840 :located "CHEST"^^xsd:string.
+:melanomaPAT_333_702_840 :inFamilyHistory :familymelanomaPAT_333_702_840.
+:familymelanomaPAT_333_702_840 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_333_702_840 rdf:type :FamilyHistory.
+:melanomaPAT_333_702_840 :inBodyCharacteristic :bodyPAT_333_702_840.
+:bodyPAT_333_702_840 rdf:type :BodyCharacteristic.
+:bodyPAT_333_702_840 :hasAge "50"^^xsd:string.
+:bodyPAT_333_702_840 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_333_702_840 :inSkinType :skinPAT_333_702_840.
+:skinPAT_333_702_840 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_656_1246_489 rdf:type :Melanoma.
+:melanomaPAT_656_1246_489 :hasState :statesmelanomaPAT_656_1246_489.
+:statesmelanomaPAT_656_1246_489 rdf:type :State.
+:statesmelanomaPAT_656_1246_489 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_656_1246_489 :isBleeding "False"^^xsd:string.
+:melanomaPAT_656_1246_489 :hasSize :sizemelanomaPAT_656_1246_489.
+:sizemelanomaPAT_656_1246_489 rdf:type :Size.
+:sizemelanomaPAT_656_1246_489 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_656_1246_489 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_656_1246_489 :hasItch "True"^^xsd:boolean.
+:statesmelanomaPAT_656_1246_489 :isofSize "12.0"^^xsd:string.
+:statesmelanomaPAT_656_1246_489 :isofSize "18.0"^^xsd:string.
+:melanomaPAT_656_1246_489 :isLocated :locatedmelanomaPAT_656_1246_489.
+:locatedmelanomaPAT_656_1246_489 rdf:type :BodyPart.
+:locatedmelanomaPAT_656_1246_489 :located "BACK"^^xsd:string.
+:melanomaPAT_656_1246_489 :inFamilyHistory :familymelanomaPAT_656_1246_489.
+:familymelanomaPAT_656_1246_489 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_656_1246_489 rdf:type :FamilyHistory.
+:melanomaPAT_656_1246_489 :inBodyCharacteristic :bodyPAT_656_1246_489.
+:bodyPAT_656_1246_489 rdf:type :BodyCharacteristic.
+:bodyPAT_656_1246_489 :hasAge "58"^^xsd:string.
+:bodyPAT_656_1246_489 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_656_1246_489 :inSkinType :skinPAT_656_1246_489.
+:skinPAT_656_1246_489 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_972_1843_756 rdf:type :Melanoma.
+:melanomaPAT_972_1843_756 :hasState :statesmelanomaPAT_972_1843_756.
+:statesmelanomaPAT_972_1843_756 rdf:type :State.
+:statesmelanomaPAT_972_1843_756 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_972_1843_756 :isBleeding "False"^^xsd:string.
+:melanomaPAT_972_1843_756 :hasSize :sizemelanomaPAT_972_1843_756.
+:sizemelanomaPAT_972_1843_756 rdf:type :Size.
+:sizemelanomaPAT_972_1843_756 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_972_1843_756 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_972_1843_756 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_972_1843_756 :isofSize "3.0"^^xsd:string.
+:statesmelanomaPAT_972_1843_756 :isofSize "5.0"^^xsd:string.
+:melanomaPAT_972_1843_756 :isLocated :locatedmelanomaPAT_972_1843_756.
+:locatedmelanomaPAT_972_1843_756 rdf:type :BodyPart.
+:locatedmelanomaPAT_972_1843_756 :located "ARM"^^xsd:string.
+:melanomaPAT_972_1843_756 :inFamilyHistory :familymelanomaPAT_972_1843_756.
+:familymelanomaPAT_972_1843_756 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_972_1843_756 rdf:type :FamilyHistory.
+:melanomaPAT_972_1843_756 :inBodyCharacteristic :bodyPAT_972_1843_756.
+:bodyPAT_972_1843_756 rdf:type :BodyCharacteristic.
+:bodyPAT_972_1843_756 :hasAge "45"^^xsd:string.
+:bodyPAT_972_1843_756 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_972_1843_756 :inSkinType :skinPAT_972_1843_756.
+:skinPAT_972_1843_756 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_949_1802_582 rdf:type :Melanoma.
+:melanomaPAT_949_1802_582 :hasState :statesmelanomaPAT_949_1802_582.
+:statesmelanomaPAT_949_1802_582 rdf:type :State.
+:statesmelanomaPAT_949_1802_582 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_949_1802_582 :isBleeding "False"^^xsd:string.
+:melanomaPAT_949_1802_582 :hasSize :sizemelanomaPAT_949_1802_582.
+:sizemelanomaPAT_949_1802_582 rdf:type :Size.
+:sizemelanomaPAT_949_1802_582 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_949_1802_582 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_949_1802_582 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_949_1802_582 :isofSize "7.0"^^xsd:string.
+:statesmelanomaPAT_949_1802_582 :isofSize "8.0"^^xsd:string.
+:melanomaPAT_949_1802_582 :isLocated :locatedmelanomaPAT_949_1802_582.
+:locatedmelanomaPAT_949_1802_582 rdf:type :BodyPart.
+:locatedmelanomaPAT_949_1802_582 :located "THIGH"^^xsd:string.
+:melanomaPAT_949_1802_582 :inFamilyHistory :familymelanomaPAT_949_1802_582.
+:familymelanomaPAT_949_1802_582 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_949_1802_582 rdf:type :FamilyHistory.
+:melanomaPAT_949_1802_582 :inBodyCharacteristic :bodyPAT_949_1802_582.
+:bodyPAT_949_1802_582 rdf:type :BodyCharacteristic.
+:bodyPAT_949_1802_582 :hasAge "54"^^xsd:string.
+:bodyPAT_949_1802_582 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_949_1802_582 :inSkinType :skinPAT_949_1802_582.
+:skinPAT_949_1802_582 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_691_1312_389 rdf:type :Melanoma.
+:melanomaPAT_691_1312_389 :hasState :statesmelanomaPAT_691_1312_389.
+:statesmelanomaPAT_691_1312_389 rdf:type :State.
+:statesmelanomaPAT_691_1312_389 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_691_1312_389 :isBleeding "False"^^xsd:string.
+:melanomaPAT_691_1312_389 :hasSize :sizemelanomaPAT_691_1312_389.
+:sizemelanomaPAT_691_1312_389 rdf:type :Size.
+:sizemelanomaPAT_691_1312_389 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_691_1312_389 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_691_1312_389 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_691_1312_389 :isofSize "10.0"^^xsd:string.
+:statesmelanomaPAT_691_1312_389 :isofSize "10.0"^^xsd:string.
+:melanomaPAT_691_1312_389 :isLocated :locatedmelanomaPAT_691_1312_389.
+:locatedmelanomaPAT_691_1312_389 rdf:type :BodyPart.
+:locatedmelanomaPAT_691_1312_389 :located "FOREARM"^^xsd:string.
+:melanomaPAT_691_1312_389 :inFamilyHistory :familymelanomaPAT_691_1312_389.
+:familymelanomaPAT_691_1312_389 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_691_1312_389 rdf:type :FamilyHistory.
+:melanomaPAT_691_1312_389 :inBodyCharacteristic :bodyPAT_691_1312_389.
+:bodyPAT_691_1312_389 rdf:type :BodyCharacteristic.
+:bodyPAT_691_1312_389 :hasAge "56"^^xsd:string.
+:bodyPAT_691_1312_389 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_691_1312_389 :inSkinType :skinPAT_691_1312_389.
+:skinPAT_691_1312_389 :typeOfSkin "1.0"^^xsd:string.
+
+
+
+:melanomaPAT_719_1361_160 rdf:type :Melanoma.
+:melanomaPAT_719_1361_160 :hasState :statesmelanomaPAT_719_1361_160.
+:statesmelanomaPAT_719_1361_160 rdf:type :State.
+:statesmelanomaPAT_719_1361_160 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_719_1361_160 :isBleeding "False"^^xsd:string.
+:melanomaPAT_719_1361_160 :hasSize :sizemelanomaPAT_719_1361_160.
+:sizemelanomaPAT_719_1361_160 rdf:type :Size.
+:sizemelanomaPAT_719_1361_160 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_719_1361_160 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_719_1361_160 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_719_1361_160 :isofSize "19.0"^^xsd:string.
+:statesmelanomaPAT_719_1361_160 :isofSize "29.0"^^xsd:string.
+:melanomaPAT_719_1361_160 :isLocated :locatedmelanomaPAT_719_1361_160.
+:locatedmelanomaPAT_719_1361_160 rdf:type :BodyPart.
+:locatedmelanomaPAT_719_1361_160 :located "FOREARM"^^xsd:string.
+:melanomaPAT_719_1361_160 :inFamilyHistory :familymelanomaPAT_719_1361_160.
+:familymelanomaPAT_719_1361_160 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_719_1361_160 rdf:type :FamilyHistory.
+:melanomaPAT_719_1361_160 :inBodyCharacteristic :bodyPAT_719_1361_160.
+:bodyPAT_719_1361_160 rdf:type :BodyCharacteristic.
+:bodyPAT_719_1361_160 :hasAge "66"^^xsd:string.
+:bodyPAT_719_1361_160 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_719_1361_160 :inSkinType :skinPAT_719_1361_160.
+:skinPAT_719_1361_160 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_233_354_828 rdf:type :Melanoma.
+:melanomaPAT_233_354_828 :hasState :statesmelanomaPAT_233_354_828.
+:statesmelanomaPAT_233_354_828 rdf:type :State.
+:statesmelanomaPAT_233_354_828 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_233_354_828 :isBleeding "False"^^xsd:string.
+:melanomaPAT_233_354_828 :hasSize :sizemelanomaPAT_233_354_828.
+:sizemelanomaPAT_233_354_828 rdf:type :Size.
+:sizemelanomaPAT_233_354_828 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_233_354_828 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_233_354_828 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_233_354_828 :isofSize "4.0"^^xsd:string.
+:statesmelanomaPAT_233_354_828 :isofSize "9.0"^^xsd:string.
+:melanomaPAT_233_354_828 :isLocated :locatedmelanomaPAT_233_354_828.
+:locatedmelanomaPAT_233_354_828 rdf:type :BodyPart.
+:locatedmelanomaPAT_233_354_828 :located "ARM"^^xsd:string.
+:melanomaPAT_233_354_828 :inFamilyHistory :familymelanomaPAT_233_354_828.
+:familymelanomaPAT_233_354_828 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_233_354_828 rdf:type :FamilyHistory.
+:melanomaPAT_233_354_828 :inBodyCharacteristic :bodyPAT_233_354_828.
+:bodyPAT_233_354_828 rdf:type :BodyCharacteristic.
+:bodyPAT_233_354_828 :hasAge "58"^^xsd:string.
+:bodyPAT_233_354_828 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_233_354_828 :inSkinType :skinPAT_233_354_828.
+:skinPAT_233_354_828 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_710_1330_243 rdf:type :Melanoma.
+:melanomaPAT_710_1330_243 :hasState :statesmelanomaPAT_710_1330_243.
+:statesmelanomaPAT_710_1330_243 rdf:type :State.
+:statesmelanomaPAT_710_1330_243 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_710_1330_243 :isBleeding "False"^^xsd:string.
+:melanomaPAT_710_1330_243 :hasSize :sizemelanomaPAT_710_1330_243.
+:sizemelanomaPAT_710_1330_243 rdf:type :Size.
+:sizemelanomaPAT_710_1330_243 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_710_1330_243 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_710_1330_243 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_710_1330_243 :isofSize "9.0"^^xsd:string.
+:statesmelanomaPAT_710_1330_243 :isofSize "10.0"^^xsd:string.
+:melanomaPAT_710_1330_243 :isLocated :locatedmelanomaPAT_710_1330_243.
+:locatedmelanomaPAT_710_1330_243 rdf:type :BodyPart.
+:locatedmelanomaPAT_710_1330_243 :located "FACE"^^xsd:string.
+:melanomaPAT_710_1330_243 :inFamilyHistory :familymelanomaPAT_710_1330_243.
+:familymelanomaPAT_710_1330_243 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_710_1330_243 rdf:type :FamilyHistory.
+:melanomaPAT_710_1330_243 :inBodyCharacteristic :bodyPAT_710_1330_243.
+:bodyPAT_710_1330_243 rdf:type :BodyCharacteristic.
+:bodyPAT_710_1330_243 :hasAge "53"^^xsd:string.
+:bodyPAT_710_1330_243 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_710_1330_243 :inSkinType :skinPAT_710_1330_243.
+:skinPAT_710_1330_243 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_894_1679_640 rdf:type :Melanoma.
+:melanomaPAT_894_1679_640 :hasState :statesmelanomaPAT_894_1679_640.
+:statesmelanomaPAT_894_1679_640 rdf:type :State.
+:statesmelanomaPAT_894_1679_640 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_894_1679_640 :isBleeding "False"^^xsd:string.
+:melanomaPAT_894_1679_640 :hasSize :sizemelanomaPAT_894_1679_640.
+:sizemelanomaPAT_894_1679_640 rdf:type :Size.
+:sizemelanomaPAT_894_1679_640 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_894_1679_640 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_894_1679_640 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_894_1679_640 :isofSize "9.0"^^xsd:string.
+:statesmelanomaPAT_894_1679_640 :isofSize "10.0"^^xsd:string.
+:melanomaPAT_894_1679_640 :isLocated :locatedmelanomaPAT_894_1679_640.
+:locatedmelanomaPAT_894_1679_640 rdf:type :BodyPart.
+:locatedmelanomaPAT_894_1679_640 :located "ARM"^^xsd:string.
+:melanomaPAT_894_1679_640 :inFamilyHistory :familymelanomaPAT_894_1679_640.
+:familymelanomaPAT_894_1679_640 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_894_1679_640 rdf:type :FamilyHistory.
+:melanomaPAT_894_1679_640 :inBodyCharacteristic :bodyPAT_894_1679_640.
+:bodyPAT_894_1679_640 rdf:type :BodyCharacteristic.
+:bodyPAT_894_1679_640 :hasAge "65"^^xsd:string.
+:bodyPAT_894_1679_640 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_894_1679_640 :inSkinType :skinPAT_894_1679_640.
+:skinPAT_894_1679_640 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_890_1693_904 rdf:type :Melanoma.
+:melanomaPAT_890_1693_904 :hasState :statesmelanomaPAT_890_1693_904.
+:statesmelanomaPAT_890_1693_904 rdf:type :State.
+:statesmelanomaPAT_890_1693_904 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_890_1693_904 :isBleeding "False"^^xsd:string.
+:melanomaPAT_890_1693_904 :hasSize :sizemelanomaPAT_890_1693_904.
+:sizemelanomaPAT_890_1693_904 rdf:type :Size.
+:sizemelanomaPAT_890_1693_904 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_890_1693_904 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_890_1693_904 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_890_1693_904 :isofSize "6.0"^^xsd:string.
+:statesmelanomaPAT_890_1693_904 :isofSize "9.0"^^xsd:string.
+:melanomaPAT_890_1693_904 :isLocated :locatedmelanomaPAT_890_1693_904.
+:locatedmelanomaPAT_890_1693_904 rdf:type :BodyPart.
+:locatedmelanomaPAT_890_1693_904 :located "CHEST"^^xsd:string.
+:melanomaPAT_890_1693_904 :inFamilyHistory :familymelanomaPAT_890_1693_904.
+:familymelanomaPAT_890_1693_904 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_890_1693_904 rdf:type :FamilyHistory.
+:melanomaPAT_890_1693_904 :inBodyCharacteristic :bodyPAT_890_1693_904.
+:bodyPAT_890_1693_904 rdf:type :BodyCharacteristic.
+:bodyPAT_890_1693_904 :hasAge "55"^^xsd:string.
+:bodyPAT_890_1693_904 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_890_1693_904 :inSkinType :skinPAT_890_1693_904.
+:skinPAT_890_1693_904 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_890_1693_454 rdf:type :Melanoma.
+:melanomaPAT_890_1693_454 :hasState :statesmelanomaPAT_890_1693_454.
+:statesmelanomaPAT_890_1693_454 rdf:type :State.
+:statesmelanomaPAT_890_1693_454 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_890_1693_454 :isBleeding "False"^^xsd:string.
+:melanomaPAT_890_1693_454 :hasSize :sizemelanomaPAT_890_1693_454.
+:sizemelanomaPAT_890_1693_454 rdf:type :Size.
+:sizemelanomaPAT_890_1693_454 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_890_1693_454 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_890_1693_454 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_890_1693_454 :isofSize "6.0"^^xsd:string.
+:statesmelanomaPAT_890_1693_454 :isofSize "9.0"^^xsd:string.
+:melanomaPAT_890_1693_454 :isLocated :locatedmelanomaPAT_890_1693_454.
+:locatedmelanomaPAT_890_1693_454 rdf:type :BodyPart.
+:locatedmelanomaPAT_890_1693_454 :located "CHEST"^^xsd:string.
+:melanomaPAT_890_1693_454 :inFamilyHistory :familymelanomaPAT_890_1693_454.
+:familymelanomaPAT_890_1693_454 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_890_1693_454 rdf:type :FamilyHistory.
+:melanomaPAT_890_1693_454 :inBodyCharacteristic :bodyPAT_890_1693_454.
+:bodyPAT_890_1693_454 rdf:type :BodyCharacteristic.
+:bodyPAT_890_1693_454 :hasAge "55"^^xsd:string.
+:bodyPAT_890_1693_454 :hasGender "FEMALE"^^xsd:string.
+:melanomaPAT_890_1693_454 :inSkinType :skinPAT_890_1693_454.
+:skinPAT_890_1693_454 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_70_107_155 rdf:type :Melanoma.
+:melanomaPAT_70_107_155 :hasState :statesmelanomaPAT_70_107_155.
+:statesmelanomaPAT_70_107_155 rdf:type :State.
+:statesmelanomaPAT_70_107_155 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_70_107_155 :isBleeding "False"^^xsd:string.
+:melanomaPAT_70_107_155 :hasSize :sizemelanomaPAT_70_107_155.
+:sizemelanomaPAT_70_107_155 rdf:type :Size.
+:sizemelanomaPAT_70_107_155 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_70_107_155 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_70_107_155 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_70_107_155 :isofSize "7.0"^^xsd:string.
+:statesmelanomaPAT_70_107_155 :isofSize "9.0"^^xsd:string.
+:melanomaPAT_70_107_155 :isLocated :locatedmelanomaPAT_70_107_155.
+:locatedmelanomaPAT_70_107_155 rdf:type :BodyPart.
+:locatedmelanomaPAT_70_107_155 :located "THIGH"^^xsd:string.
+:melanomaPAT_70_107_155 :inFamilyHistory :familymelanomaPAT_70_107_155.
+:familymelanomaPAT_70_107_155 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_70_107_155 rdf:type :FamilyHistory.
+:melanomaPAT_70_107_155 :inBodyCharacteristic :bodyPAT_70_107_155.
+:bodyPAT_70_107_155 rdf:type :BodyCharacteristic.
+:bodyPAT_70_107_155 :hasAge "67"^^xsd:string.
+:bodyPAT_70_107_155 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_70_107_155 :inSkinType :skinPAT_70_107_155.
+:skinPAT_70_107_155 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_115_1138_970 rdf:type :Melanoma.
+:melanomaPAT_115_1138_970 :hasState :statesmelanomaPAT_115_1138_970.
+:statesmelanomaPAT_115_1138_970 rdf:type :State.
+:statesmelanomaPAT_115_1138_970 :hasBump "True"^^xsd:boolean.
+:statesmelanomaPAT_115_1138_970 :isBleeding "False"^^xsd:string.
+:melanomaPAT_115_1138_970 :hasSize :sizemelanomaPAT_115_1138_970.
+:sizemelanomaPAT_115_1138_970 rdf:type :Size.
+:sizemelanomaPAT_115_1138_970 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_115_1138_970 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_115_1138_970 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_115_1138_970 :isofSize "8.0"^^xsd:string.
+:statesmelanomaPAT_115_1138_970 :isofSize "10.0"^^xsd:string.
+:melanomaPAT_115_1138_970 :isLocated :locatedmelanomaPAT_115_1138_970.
+:locatedmelanomaPAT_115_1138_970 rdf:type :BodyPart.
+:locatedmelanomaPAT_115_1138_970 :located "BACK"^^xsd:string.
+:melanomaPAT_115_1138_970 :inFamilyHistory :familymelanomaPAT_115_1138_970.
+:familymelanomaPAT_115_1138_970 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_115_1138_970 rdf:type :FamilyHistory.
+:melanomaPAT_115_1138_970 :inBodyCharacteristic :bodyPAT_115_1138_970.
+:bodyPAT_115_1138_970 rdf:type :BodyCharacteristic.
+:bodyPAT_115_1138_970 :hasAge "70"^^xsd:string.
+:bodyPAT_115_1138_970 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_115_1138_970 :inSkinType :skinPAT_115_1138_970.
+:skinPAT_115_1138_970 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_486_929_317 rdf:type :Melanoma.
+:melanomaPAT_486_929_317 :hasState :statesmelanomaPAT_486_929_317.
+:statesmelanomaPAT_486_929_317 rdf:type :State.
+:statesmelanomaPAT_486_929_317 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_486_929_317 :isBleeding "False"^^xsd:string.
+:melanomaPAT_486_929_317 :hasSize :sizemelanomaPAT_486_929_317.
+:sizemelanomaPAT_486_929_317 rdf:type :Size.
+:sizemelanomaPAT_486_929_317 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_486_929_317 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_486_929_317 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_486_929_317 :isofSize "12.0"^^xsd:string.
+:statesmelanomaPAT_486_929_317 :isofSize "16.0"^^xsd:string.
+:melanomaPAT_486_929_317 :isLocated :locatedmelanomaPAT_486_929_317.
+:locatedmelanomaPAT_486_929_317 rdf:type :BodyPart.
+:locatedmelanomaPAT_486_929_317 :located "ABDOMEN"^^xsd:string.
+:melanomaPAT_486_929_317 :inFamilyHistory :familymelanomaPAT_486_929_317.
+:familymelanomaPAT_486_929_317 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_486_929_317 rdf:type :FamilyHistory.
+:melanomaPAT_486_929_317 :inBodyCharacteristic :bodyPAT_486_929_317.
+:bodyPAT_486_929_317 rdf:type :BodyCharacteristic.
+:bodyPAT_486_929_317 :hasAge "57"^^xsd:string.
+:bodyPAT_486_929_317 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_486_929_317 :inSkinType :skinPAT_486_929_317.
+:skinPAT_486_929_317 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_320_681_410 rdf:type :Melanoma.
+:melanomaPAT_320_681_410 :hasState :statesmelanomaPAT_320_681_410.
+:statesmelanomaPAT_320_681_410 rdf:type :State.
+:statesmelanomaPAT_320_681_410 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_320_681_410 :isBleeding "False"^^xsd:string.
+:melanomaPAT_320_681_410 :hasSize :sizemelanomaPAT_320_681_410.
+:sizemelanomaPAT_320_681_410 rdf:type :Size.
+:sizemelanomaPAT_320_681_410 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_320_681_410 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_320_681_410 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_320_681_410 :isofSize "9.0"^^xsd:string.
+:statesmelanomaPAT_320_681_410 :isofSize "9.0"^^xsd:string.
+:melanomaPAT_320_681_410 :isLocated :locatedmelanomaPAT_320_681_410.
+:locatedmelanomaPAT_320_681_410 rdf:type :BodyPart.
+:locatedmelanomaPAT_320_681_410 :located "FACE"^^xsd:string.
+:melanomaPAT_320_681_410 :inFamilyHistory :familymelanomaPAT_320_681_410.
+:familymelanomaPAT_320_681_410 :hasMelanoma "False"^^xsd:boolean.
+:familymelanomaPAT_320_681_410 rdf:type :FamilyHistory.
+:melanomaPAT_320_681_410 :inBodyCharacteristic :bodyPAT_320_681_410.
+:bodyPAT_320_681_410 rdf:type :BodyCharacteristic.
+:bodyPAT_320_681_410 :hasAge "70"^^xsd:string.
+:bodyPAT_320_681_410 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_320_681_410 :inSkinType :skinPAT_320_681_410.
+:skinPAT_320_681_410 :typeOfSkin "3.0"^^xsd:string.
+
+
+
+:melanomaPAT_45_66_822 rdf:type :Melanoma.
+:melanomaPAT_45_66_822 :hasState :statesmelanomaPAT_45_66_822.
+:statesmelanomaPAT_45_66_822 rdf:type :State.
+:statesmelanomaPAT_45_66_822 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_45_66_822 :isBleeding "False"^^xsd:string.
+:melanomaPAT_45_66_822 :hasSize :sizemelanomaPAT_45_66_822.
+:sizemelanomaPAT_45_66_822 rdf:type :Size.
+:sizemelanomaPAT_45_66_822 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_45_66_822 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_45_66_822 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_45_66_822 :isofSize "14.0"^^xsd:string.
+:statesmelanomaPAT_45_66_822 :isofSize "15.0"^^xsd:string.
+:melanomaPAT_45_66_822 :isLocated :locatedmelanomaPAT_45_66_822.
+:locatedmelanomaPAT_45_66_822 rdf:type :BodyPart.
+:locatedmelanomaPAT_45_66_822 :located "CHEST"^^xsd:string.
+:melanomaPAT_45_66_822 :inFamilyHistory :familymelanomaPAT_45_66_822.
+:familymelanomaPAT_45_66_822 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_45_66_822 rdf:type :FamilyHistory.
+:melanomaPAT_45_66_822 :inBodyCharacteristic :bodyPAT_45_66_822.
+:bodyPAT_45_66_822 rdf:type :BodyCharacteristic.
+:bodyPAT_45_66_822 :hasAge "73"^^xsd:string.
+:bodyPAT_45_66_822 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_45_66_822 :inSkinType :skinPAT_45_66_822.
+:skinPAT_45_66_822 :typeOfSkin "2.0"^^xsd:string.
+
+
+
+:melanomaPAT_754_1429_380 rdf:type :Melanoma.
+:melanomaPAT_754_1429_380 :hasState :statesmelanomaPAT_754_1429_380.
+:statesmelanomaPAT_754_1429_380 rdf:type :State.
+:statesmelanomaPAT_754_1429_380 :hasBump "False"^^xsd:boolean.
+:statesmelanomaPAT_754_1429_380 :isBleeding "False"^^xsd:string.
+:melanomaPAT_754_1429_380 :hasSize :sizemelanomaPAT_754_1429_380.
+:sizemelanomaPAT_754_1429_380 rdf:type :Size.
+:sizemelanomaPAT_754_1429_380 :hasChange "True"^^xsd:boolean.
+:statesmelanomaPAT_754_1429_380 :isPainful "False"^^xsd:boolean.
+:statesmelanomaPAT_754_1429_380 :hasItch "False"^^xsd:boolean.
+:statesmelanomaPAT_754_1429_380 :isofSize "34.0"^^xsd:string.
+:statesmelanomaPAT_754_1429_380 :isofSize "40.0"^^xsd:string.
+:melanomaPAT_754_1429_380 :isLocated :locatedmelanomaPAT_754_1429_380.
+:locatedmelanomaPAT_754_1429_380 rdf:type :BodyPart.
+:locatedmelanomaPAT_754_1429_380 :located "FOREARM"^^xsd:string.
+:melanomaPAT_754_1429_380 :inFamilyHistory :familymelanomaPAT_754_1429_380.
+:familymelanomaPAT_754_1429_380 :hasMelanoma "True"^^xsd:boolean.
+:familymelanomaPAT_754_1429_380 rdf:type :FamilyHistory.
+:melanomaPAT_754_1429_380 :inBodyCharacteristic :bodyPAT_754_1429_380.
+:bodyPAT_754_1429_380 rdf:type :BodyCharacteristic.
+:bodyPAT_754_1429_380 :hasAge "75"^^xsd:string.
+:bodyPAT_754_1429_380 :hasGender "MALE"^^xsd:string.
+:melanomaPAT_754_1429_380 :inSkinType :skinPAT_754_1429_380.
+:skinPAT_754_1429_380 :typeOfSkin "2.0"^^xsd:string.
+
+
+

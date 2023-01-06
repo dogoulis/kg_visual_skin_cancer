@@ -1,0 +1,15 @@
+select ?propertySize ?valueSize ?propertyState ?valueState ?propertyShape ?shape where{
+	?melanoma rdf:type :Melanoma .
+
+	?melanoma :inExposure ?exposure.
+	?exposure ?property <Chracteristic>.
+	?melanoma :hasSymptoms ?symptoms .
+	?melanoma :hasSize ?size .
+	?melanoma :hasShape ?shape .
+	?melanoma :hasColour ?colour .
+	?melanoma :hasState ?state .
+	?size ?propertySize ?valueSize .
+	?state ?propertyState ?valueState .
+	?colour ?propertyColour ?colour .
+	?shape ?propertyShape ?shape .
+}

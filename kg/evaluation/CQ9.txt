@@ -1,0 +1,24 @@
+ASK{
+	?melanoma rdf:type :Melanoma .
+	
+	?melanoma :hasSymptoms ?symptoms0 .
+	?melanoma :hasSize ?size0 .
+	?melanoma :hasShape ?shape0 .
+	?melanoma :hasColour ?colour0 .
+	?melanoma :hasState ?state0 .
+	optional{?size0 ?propertySize <A>}
+	optional{?state0 ?propertyState <A> }
+	optional{?colour0 ?propertyColour <A> }
+	optional{?shape0 ?propertyShape <A> }
+
+
+	?melanoma :hasSymptoms ?symptoms1 .
+	?melanoma :hasSize ?size1 .
+	?melanoma :hasShape ?shape1 .
+	?melanoma :hasColour ?colour1 .
+	?melanoma :hasState ?state1 .
+	optional{?size1 ?propertySize <B>}
+	optional{?state1 ?propertyState <B> }
+	optional{?colour1 ?propertyColour <B> }
+	optional{?shape1 ?propertyShape <B> }
+}##(s)he gave 2 symptoms

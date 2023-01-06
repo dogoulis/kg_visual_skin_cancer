@@ -1,0 +1,24 @@
+ASK{
+	?squamous rdf:type :SquamousCell .
+	
+	?squamous :hasSymptoms ?symptoms0 .
+	?squamous :hasSize ?size0 .
+	?squamous :hasShape ?shape0 .
+	?squamous :hasColour ?colour0 .
+	?squamous :hasState ?state0 .
+	optional{?size0 ?propertySize <A>}
+	optional{?state0 ?propertyState <A> }
+	optional{?colour0 ?propertyColour <A> }
+	optional{?shape0 ?propertyShape <A> }
+
+
+	?squamous :hasSymptoms ?symptoms1 .
+	?squamous :hasSize ?size1 .
+	?squamous :hasShape ?shape1 .
+	?squamous :hasColour ?colour1 .
+	?squamous :hasState ?state1 .
+	optional{?size1 ?propertySize <B>}
+	optional{?state1 ?propertyState <B> }
+	optional{?colour1 ?propertyColour <B> }
+	optional{?shape1 ?propertyShape <B> }
+}##(s)he gave 2 symptoms

@@ -1,0 +1,14 @@
+select ?propertyskinType ?valueskinType  ?propertyfamilyHistory ?valuefamilyHistory ?propertybodyCharacteristic  ?valuebodyCharacteristic ?propertyimmuneSystem ?valueimmuneSystem ?propertyexposure ?valueexposure where{
+	?melanoma rdf:type :Melanoma .
+	?melanoma hasDanger ?danger .
+	?melanoma inSkinType ?skinType .
+	?melanoma inFamilyHistory ?familyHistory .
+	?melanoma inBodyCharacteristic ?bodyCharacteristic .
+	?melanoma inImmuneSystem ?immuneSystem .
+	?melanoma inExposure ?exposure .
+	?skinType ?propertyskinType ?valueskinType .
+	?state ?propertyfamilyHistory ?valuefamilyHistory .
+	?colour ?propertybodyCharacteristic  ?valuebodyCharacteristic  .
+	?shape ?propertyimmuneSystem ?valueimmuneSystem .
+	?exposure ?propertyexposure ?valueexposure .
+}
