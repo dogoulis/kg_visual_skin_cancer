@@ -4,11 +4,6 @@ from imutils import paths
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 
-"""
-This script Transforms some folders of images in to train test and val csv files and saves them in a user-defined folder.
-MAS KANEI THN ZWH PIO EUKOLH GTX.
-"""
-
 
 class CreateFile():
     
